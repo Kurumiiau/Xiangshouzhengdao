@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:fitsSystemWindows="true">
+    <LinearLayout android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="56dp" android:orientation="horizontal" android:gravity="center_vertical" android:paddingStart="16dp" android:paddingEnd="16dp" android:clickable="true" android:focusable="true" android:baselineAligned="false" android:contentDescription="@string/cd_back">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/body_detail_title" android:textColor="@color/text_primary" android:textSize="20sp" android:textStyle="bold" android:includeFontPadding="false" app:drawableStartCompat="@drawable/ic_back" app:drawableTint="@color/text_primary" android:drawablePadding="14dp" android:gravity="center_vertical" />
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/bg_glass" android:padding="22dp">
+                <TextView android:id="@+id/tvBodyTypeName" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="24sp" android:textStyle="bold" android:textColor="@color/text_primary" android:gravity="center" android:includeFontPadding="false" />
+                <TextView android:id="@+id/tvBodyTypeDesc" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="13.5sp" android:textColor="@color/text_secondary" android:gravity="center" android:lineSpacingMultiplier="1.35" android:layout_marginTop="8dp" android:includeFontPadding="false" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" />
+            <TextView android:id="@+id/tvDetailContent" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="14.5sp" android:textColor="@color/text_primary" android:lineSpacingMultiplier="1.6" android:includeFontPadding="false" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

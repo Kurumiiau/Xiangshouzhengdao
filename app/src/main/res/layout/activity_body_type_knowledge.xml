@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:fitsSystemWindows="true">
+    <LinearLayout android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="56dp" android:orientation="horizontal" android:gravity="center_vertical" android:paddingStart="16dp" android:paddingEnd="16dp" android:clickable="true" android:focusable="true" android:baselineAligned="false" android:contentDescription="@string/cd_back">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/knowledge_title" android:textColor="@color/text_primary" android:textSize="20sp" android:textStyle="bold" android:includeFontPadding="false" app:drawableStartCompat="@drawable/ic_back" app:drawableTint="@color/text_primary" android:drawablePadding="14dp" android:gravity="center_vertical" />
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+            <androidx.cardview.widget.CardView android:id="@+id/cardNineBodyTypes" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="24dp" app:cardElevation="0dp" app:cardBackgroundColor="@color/glass_white" android:foreground="@drawable/ripple_soft" android:clickable="true" android:focusable="true">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:padding="18dp" android:baselineAligned="false">
+                    <FrameLayout android:layout_width="56dp" android:layout_height="56dp" android:background="@drawable/bg_icon_tile" android:backgroundTint="@color/tile_blue_bg">
+                        <ImageView android:layout_width="27dp" android:layout_height="27dp" android:layout_gravity="center" android:src="@drawable/ic_knowledge" android:importantForAccessibility="no" app:tint="@color/tile_blue_fg" />
+                    </FrameLayout>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="16dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/knowledge_nine_title" android:textSize="17sp" android:textStyle="bold" android:textColor="@color/text_primary" android:includeFontPadding="false" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/knowledge_nine_desc" android:textSize="12sp" android:textColor="@color/text_secondary" android:includeFontPadding="false" />
+                    </LinearLayout>
+                    <ImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_arrow_right" android:alpha="0.35" android:importantForAccessibility="no" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/cardJunChenZuoShi" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" app:cardCornerRadius="24dp" app:cardElevation="0dp" app:cardBackgroundColor="@color/glass_white" android:foreground="@drawable/ripple_soft" android:clickable="true" android:focusable="true">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:padding="18dp" android:baselineAligned="false">
+                    <FrameLayout android:layout_width="56dp" android:layout_height="56dp" android:background="@drawable/bg_icon_tile" android:backgroundTint="@color/tile_green_bg">
+                        <ImageView android:layout_width="27dp" android:layout_height="27dp" android:layout_gravity="center" android:src="@drawable/ic_prescription" android:importantForAccessibility="no" app:tint="@color/tile_green_fg" />
+                    </FrameLayout>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="16dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/knowledge_jun_title" android:textSize="17sp" android:textStyle="bold" android:textColor="@color/text_primary" android:includeFontPadding="false" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/knowledge_jun_desc" android:textSize="12sp" android:textColor="@color/text_secondary" android:includeFontPadding="false" />
+                    </LinearLayout>
+                    <ImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_arrow_right" android:alpha="0.35" android:importantForAccessibility="no" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/knowledge_footer" android:textSize="12.5sp" android:textColor="@color/text_hint" android:gravity="center" android:lineSpacingMultiplier="1.5" android:includeFontPadding="false" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

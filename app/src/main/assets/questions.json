@@ -1,0 +1,380 @@
+[
+  {
+    "id": 1,
+    "text": "日常精力充沛，不易疲惫",
+    "bodyType": "pinghe",
+    "reverse": false,
+    "group": 1
+  },
+  {
+    "id": 2,
+    "text": "轻微活动就疲惫、浑身酸软",
+    "bodyType": "qixu",
+    "reverse": false,
+    "group": 2
+  },
+  {
+    "id": 3,
+    "text": "一年四季手脚冰凉",
+    "bodyType": "yangxu",
+    "reverse": false,
+    "group": 3
+  },
+  {
+    "id": 4,
+    "text": "手心脚心持续发热，午后加重",
+    "bodyType": "yinxu",
+    "reverse": false,
+    "group": 4
+  },
+  {
+    "id": 5,
+    "text": "身体沉重慵懒，不爱走动",
+    "bodyType": "tanshi",
+    "reverse": false,
+    "group": 5
+  },
+  {
+    "id": 6,
+    "text": "面部后背反复红肿痘痘",
+    "bodyType": "shire",
+    "reverse": false,
+    "group": 6
+  },
+  {
+    "id": 7,
+    "text": "入睡快、睡眠踏实，少多梦惊醒",
+    "bodyType": "pinghe",
+    "reverse": false,
+    "group": 1
+  },
+  {
+    "id": 8,
+    "text": "说话气短无力，懒得开口",
+    "bodyType": "qixu",
+    "reverse": false,
+    "group": 2
+  },
+  {
+    "id": 9,
+    "text": "腰腹常年发凉，喜欢热敷",
+    "bodyType": "yangxu",
+    "reverse": false,
+    "group": 3
+  },
+  {
+    "id": 10,
+    "text": "长期口干舌燥，频繁想喝水",
+    "bodyType": "yinxu",
+    "reverse": false,
+    "group": 4
+  },
+  {
+    "id": 11,
+    "text": "腹部松软肥胖，常年腹胀",
+    "bodyType": "tanshi",
+    "reverse": false,
+    "group": 5
+  },
+  {
+    "id": 12,
+    "text": "晨起口苦、口臭明显",
+    "bodyType": "shire",
+    "reverse": false,
+    "group": 6
+  },
+  {
+    "id": 13,
+    "text": "冷暖适应强，换季很少感冒过敏",
+    "bodyType": "pinghe",
+    "reverse": false,
+    "group": 1
+  },
+  {
+    "id": 14,
+    "text": "安静时也心慌、心跳虚弱",
+    "bodyType": "qixu",
+    "reverse": false,
+    "group": 2
+  },
+  {
+    "id": 15,
+    "text": "比常人怕冷，换季最先加衣",
+    "bodyType": "yangxu",
+    "reverse": false,
+    "group": 3
+  },
+  {
+    "id": 16,
+    "text": "夜间睡觉盗汗，睡醒潮湿",
+    "bodyType": "yinxu",
+    "reverse": false,
+    "group": 4
+  },
+  {
+    "id": 17,
+    "text": "咽喉总有黏痰，难以咳出",
+    "bodyType": "tanshi",
+    "reverse": false,
+    "group": 5
+  },
+  {
+    "id": 18,
+    "text": "出汗黏腻，身上有异味",
+    "bodyType": "shire",
+    "reverse": false,
+    "group": 6
+  },
+  {
+    "id": 19,
+    "text": "面色红润均匀，气色良好",
+    "bodyType": "pinghe",
+    "reverse": false,
+    "group": 1
+  },
+  {
+    "id": 20,
+    "text": "起身站立容易头晕发黑",
+    "bodyType": "qixu",
+    "reverse": false,
+    "group": 2
+  },
+  {
+    "id": 21,
+    "text": "吃生冷饮品立刻腹痛腹泻",
+    "bodyType": "yangxu",
+    "reverse": false,
+    "group": 3
+  },
+  {
+    "id": 22,
+    "text": "皮肤干燥起皮，大便干结难排",
+    "bodyType": "yinxu",
+    "reverse": false,
+    "group": 4
+  },
+  {
+    "id": 23,
+    "text": "头皮、面部出油严重",
+    "bodyType": "tanshi",
+    "reverse": false,
+    "group": 5
+  },
+  {
+    "id": 24,
+    "text": "小便发黄、排尿灼热",
+    "bodyType": "shire",
+    "reverse": false,
+    "group": 6
+  },
+  {
+    "id": 25,
+    "text": "大便软硬适中、排便规律",
+    "bodyType": "pinghe",
+    "reverse": false,
+    "group": 1
+  },
+  {
+    "id": 26,
+    "text": "吹风、换季极易感冒，恢复慢",
+    "bodyType": "qixu",
+    "reverse": false,
+    "group": 2
+  },
+  {
+    "id": 27,
+    "text": "小便清长、频繁起夜，大便稀溏",
+    "bodyType": "yangxu",
+    "reverse": false,
+    "group": 3
+  },
+  {
+    "id": 28,
+    "text": "心烦急躁，夜间失眠多梦",
+    "bodyType": "yinxu",
+    "reverse": false,
+    "group": 4
+  },
+  {
+    "id": 29,
+    "text": "大便黏腻，冲水难以冲净",
+    "bodyType": "tanshi",
+    "reverse": false,
+    "group": 5
+  },
+  {
+    "id": 30,
+    "text": "皮肤反复湿疹、瘙痒",
+    "bodyType": "shire",
+    "reverse": false,
+    "group": 6
+  },
+  {
+    "id": 31,
+    "text": "情绪稳定，很少焦虑低落",
+    "bodyType": "pinghe",
+    "reverse": false,
+    "group": 1
+  },
+  {
+    "id": 32,
+    "text": "不动也自汗，活动后出汗加剧",
+    "bodyType": "qixu",
+    "reverse": false,
+    "group": 2
+  },
+  {
+    "id": 33,
+    "text": "精神萎靡，整日提不起精神",
+    "bodyType": "yangxu",
+    "reverse": false,
+    "group": 3
+  },
+  {
+    "id": 34,
+    "text": "眼睛干涩，长时间视物疲劳",
+    "bodyType": "yinxu",
+    "reverse": false,
+    "group": 4
+  },
+  {
+    "id": 35,
+    "text": "口中发黏、发甜，舌苔厚腻",
+    "bodyType": "tanshi",
+    "reverse": false,
+    "group": 5
+  },
+  {
+    "id": 36,
+    "text": "小事极易急躁上火",
+    "bodyType": "shire",
+    "reverse": false,
+    "group": 6
+  },
+  {
+    "id": 37,
+    "text": "身体固定位置长期刺痛隐痛",
+    "bodyType": "xueyu",
+    "reverse": false,
+    "group": 7
+  },
+  {
+    "id": 38,
+    "text": "长期情绪低落、压抑，频繁叹气",
+    "bodyType": "qiyu",
+    "reverse": false,
+    "group": 8
+  },
+  {
+    "id": 39,
+    "text": "心思敏感，容易钻牛角尖",
+    "bodyType": "qiyu",
+    "reverse": false,
+    "group": 8
+  },
+  {
+    "id": 40,
+    "text": "情绪差时食欲不振、反胃嗳气",
+    "bodyType": "qiyu",
+    "reverse": false,
+    "group": 8
+  },
+  {
+    "id": 41,
+    "text": "花粉、粉尘、换季立刻打喷嚏流清涕",
+    "bodyType": "tebing",
+    "reverse": false,
+    "group": 9
+  },
+  {
+    "id": 42,
+    "text": "普通香水、刺激性气味难以耐受",
+    "bodyType": "tebing",
+    "reverse": false,
+    "group": 9
+  },
+  {
+    "id": 43,
+    "text": "面色晦暗，黄褐斑、黑眼圈重",
+    "bodyType": "xueyu",
+    "reverse": false,
+    "group": 7
+  },
+  {
+    "id": 44,
+    "text": "思虑过重，躺下很久无法入睡",
+    "bodyType": "qiyu",
+    "reverse": false,
+    "group": 8
+  },
+  {
+    "id": 45,
+    "text": "春秋持续鼻塞、鼻痒、呼吸道不适",
+    "bodyType": "tebing",
+    "reverse": false,
+    "group": 9
+  },
+  {
+    "id": 46,
+    "text": "换季易咳喘、咽喉干痒",
+    "bodyType": "tebing",
+    "reverse": false,
+    "group": 9
+  },
+  {
+    "id": 47,
+    "text": "家族有哮喘、过敏性鼻炎遗传史",
+    "bodyType": "tebing",
+    "reverse": false,
+    "group": 9
+  },
+  {
+    "id": 48,
+    "text": "皮肤易起荨麻疹、红疹瘙痒",
+    "bodyType": "tebing",
+    "reverse": false,
+    "group": 9
+  },
+  {
+    "id": 49,
+    "text": "嘴唇、舌下静脉发紫发黑",
+    "bodyType": "xueyu",
+    "reverse": false,
+    "group": 7
+  },
+  {
+    "id": 50,
+    "text": "无磕碰也莫名出现青瘀",
+    "bodyType": "xueyu",
+    "reverse": false,
+    "group": 7
+  },
+  {
+    "id": 51,
+    "text": "记忆力下降，经常健忘",
+    "bodyType": "xueyu",
+    "reverse": false,
+    "group": 7
+  },
+  {
+    "id": 52,
+    "text": "女性经期血块多、痛经明显",
+    "bodyType": "xueyu",
+    "reverse": false,
+    "group": 7
+  },
+  {
+    "id": 53,
+    "text": "压力大时胸口闷胀、胁肋不适",
+    "bodyType": "qiyu",
+    "reverse": false,
+    "group": 8
+  },
+  {
+    "id": 54,
+    "text": "夜间多梦，容易惊醒内耗",
+    "bodyType": "qiyu",
+    "reverse": false,
+    "group": 8
+  }
+]

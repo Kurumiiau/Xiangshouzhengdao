@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:overScrollMode="never">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:paddingStart="20dp" android:paddingEnd="20dp" android:paddingBottom="20dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:paddingTop="24dp" android:paddingBottom="20dp" android:baselineAligned="false">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/home_brand_title" android:textSize="30sp" android:textColor="@color/text_primary" android:includeFontPadding="false" android:layout_weight="1" android:fontFamily="serif" android:textStyle="bold" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_brand_caption" android:textSize="12sp" android:textColor="@color/text_secondary" android:includeFontPadding="false" />
+        </LinearLayout>
+        <FrameLayout android:id="@+id/heroCard" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:background="@drawable/bg_hero">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="18dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:baselineAligned="false">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_today_term" android:textSize="12sp" android:textStyle="bold" android:textColor="@color/text_white" android:background="@drawable/bg_hero_chip" android:paddingHorizontal="10dp" android:paddingVertical="4dp" android:includeFontPadding="false" />
+                    <Space android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1" />
+                    <TextView android:id="@+id/tvSolarDate" android:layout_width="wrap_content" android:layout_height="wrap_content" tools:text="7月14日 星期二" android:textSize="12sp" android:textColor="@color/text_white" android:alpha="0.8" android:includeFontPadding="false" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="10dp" android:gravity="center_vertical" android:baselineAligned="false">
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+                        <TextView android:id="@+id/tvSolarTerm" android:layout_width="wrap_content" android:layout_height="wrap_content" tools:text="小暑" android:textSize="42sp" android:textStyle="bold" android:textColor="@color/text_white" android:includeFontPadding="false" android:fontFamily="serif" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" />
+                        <TextView android:id="@+id/tvHeroHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_subtitle" android:textSize="12sp" android:textColor="@color/text_white" android:alpha="0.85" android:lineSpacingMultiplier="1.35" android:layout_marginTop="6dp" android:includeFontPadding="false" android:maxWidth="220dp" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="end" android:layout_marginStart="12dp">
+                        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_vertical">
+                            <ImageView android:id="@+id/ivWeatherIcon" android:layout_width="22dp" android:layout_height="22dp" android:src="@drawable/weather_unknown" android:contentDescription="@string/cd_weather" android:layout_gravity="start|center_vertical" />
+                            <TextView android:id="@+id/tvWeatherTemp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/weather_temperature_placeholder" android:textSize="22sp" android:textStyle="bold" android:textColor="@color/text_white" android:layout_marginStart="30dp" android:includeFontPadding="false" android:layout_gravity="start|center_vertical" />
+                        </FrameLayout>
+                        <TextView android:id="@+id/tvWeatherDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/weather_loading" android:textSize="12sp" android:textColor="@color/text_white" android:alpha="0.8" android:layout_marginTop="6dp" android:includeFontPadding="false" android:maxWidth="124dp" android:maxLines="2" android:ellipsize="end" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_seasonal_wellness" android:textSize="18sp" android:textStyle="bold" android:textColor="@color/text_primary" android:layout_marginTop="24dp" android:layout_marginStart="4dp" android:includeFontPadding="false" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_subtitle" android:textSize="12sp" android:textColor="@color/text_hint" android:layout_marginTop="4dp" android:layout_marginStart="4dp" android:layout_marginBottom="12dp" android:includeFontPadding="false" />
+        <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:columnCount="3">
+            <LinearLayout android:id="@+id/btnHerbIntro" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:layout_margin="6dp" android:orientation="vertical" android:gravity="center" android:paddingTop="22dp" android:paddingBottom="18dp" android:background="@drawable/bg_glass" android:foreground="@drawable/ripple_soft" android:clickable="true" android:focusable="true">
+                <FrameLayout android:layout_width="52dp" android:layout_height="52dp" android:background="@drawable/bg_icon_tile" android:backgroundTint="@color/tile_green_bg">
+                    <ImageView android:layout_width="25dp" android:layout_height="25dp" android:layout_gravity="center" android:src="@drawable/ic_herb" android:contentDescription="@string/grid_herb" android:importantForAccessibility="no" app:tint="@color/tile_green_fg" />
+                </FrameLayout>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/grid_herb" android:textSize="13sp" android:textColor="@color/text_primary" android:layout_marginTop="10dp" android:includeFontPadding="false" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/btnSolarPrescription" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:layout_margin="6dp" android:orientation="vertical" android:gravity="center" android:paddingTop="22dp" android:paddingBottom="18dp" android:background="@drawable/bg_glass" android:foreground="@drawable/ripple_soft" android:clickable="true" android:focusable="true">
+                <FrameLayout android:layout_width="52dp" android:layout_height="52dp" android:background="@drawable/bg_icon_tile" android:backgroundTint="@color/tile_orange_bg">
+                    <ImageView android:layout_width="25dp" android:layout_height="25dp" android:layout_gravity="center" android:src="@drawable/ic_solar" android:contentDescription="@string/grid_solar" android:importantForAccessibility="no" app:tint="@color/tile_orange_fg" />
+                </FrameLayout>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/grid_solar" android:textSize="13sp" android:textColor="@color/text_primary" android:layout_marginTop="10dp" android:includeFontPadding="false" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/btnBodyKnowledge" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:layout_margin="6dp" android:orientation="vertical" android:gravity="center" android:paddingTop="22dp" android:paddingBottom="18dp" android:background="@drawable/bg_glass" android:foreground="@drawable/ripple_soft" android:clickable="true" android:focusable="true">
+                <FrameLayout android:layout_width="52dp" android:layout_height="52dp" android:background="@drawable/bg_icon_tile" android:backgroundTint="@color/tile_blue_bg">
+                    <ImageView android:layout_width="25dp" android:layout_height="25dp" android:layout_gravity="center" android:src="@drawable/ic_knowledge" android:contentDescription="@string/grid_knowledge" android:importantForAccessibility="no" app:tint="@color/tile_blue_fg" />
+                </FrameLayout>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/grid_knowledge" android:textSize="13sp" android:textColor="@color/text_primary" android:layout_marginTop="10dp" android:includeFontPadding="false" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/btnBodyTest" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:layout_margin="6dp" android:orientation="vertical" android:gravity="center" android:paddingTop="22dp" android:paddingBottom="18dp" android:background="@drawable/bg_glass" android:foreground="@drawable/ripple_soft" android:clickable="true" android:focusable="true">
+                <FrameLayout android:layout_width="52dp" android:layout_height="52dp" android:background="@drawable/bg_icon_tile" android:backgroundTint="@color/tile_red_bg">
+                    <ImageView android:layout_width="25dp" android:layout_height="25dp" android:layout_gravity="center" android:src="@drawable/ic_test" android:contentDescription="@string/grid_test" android:importantForAccessibility="no" app:tint="@color/tile_red_fg" />
+                </FrameLayout>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/grid_test" android:textSize="13sp" android:textColor="@color/text_primary" android:layout_marginTop="10dp" android:includeFontPadding="false" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/btnSolarCalendar" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:layout_margin="6dp" android:orientation="vertical" android:gravity="center" android:paddingTop="22dp" android:paddingBottom="18dp" android:background="@drawable/bg_glass" android:foreground="@drawable/ripple_soft" android:clickable="true" android:focusable="true">
+                <FrameLayout android:layout_width="52dp" android:layout_height="52dp" android:background="@drawable/bg_icon_tile" android:backgroundTint="@color/tile_teal_bg">
+                    <ImageView android:layout_width="25dp" android:layout_height="25dp" android:layout_gravity="center" android:src="@drawable/ic_calendar" android:contentDescription="@string/grid_calendar" android:importantForAccessibility="no" app:tint="@color/tile_teal_fg" />
+                </FrameLayout>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/grid_calendar" android:textSize="13sp" android:textColor="@color/text_primary" android:layout_marginTop="10dp" android:includeFontPadding="false" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/btnCustomPrescription" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:layout_margin="6dp" android:orientation="vertical" android:gravity="center" android:paddingTop="22dp" android:paddingBottom="18dp" android:background="@drawable/bg_glass" android:foreground="@drawable/ripple_soft" android:clickable="true" android:focusable="true">
+                <FrameLayout android:layout_width="52dp" android:layout_height="52dp" android:background="@drawable/bg_icon_tile" android:backgroundTint="@color/tile_purple_bg">
+                    <ImageView android:layout_width="25dp" android:layout_height="25dp" android:layout_gravity="center" android:src="@drawable/ic_prescription" android:contentDescription="@string/grid_custom" android:importantForAccessibility="no" app:tint="@color/tile_purple_fg" />
+                </FrameLayout>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/grid_custom" android:textSize="13sp" android:textColor="@color/text_primary" android:layout_marginTop="10dp" android:includeFontPadding="false" />
+            </LinearLayout>
+        </GridLayout>
+        <FrameLayout android:id="@+id/recentCard" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:background="@drawable/bg_glass">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="18dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:baselineAligned="false">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/home_recent" android:textSize="17sp" android:textStyle="bold" android:textColor="@color/text_primary" android:includeFontPadding="false" />
+                    <TextView android:id="@+id/tvViewAll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_view_all" android:textSize="13sp" android:textColor="@color/primary" android:padding="6dp" android:includeFontPadding="false" />
+                </LinearLayout>
+                <LinearLayout android:id="@+id/recentRecordContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginTop="12dp">
+                    <TextView android:id="@+id/tvEmptyRecord" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/home_empty_record" android:textColor="@color/text_hint" android:textSize="13sp" android:gravity="center" android:padding="20dp" android:includeFontPadding="false" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <View android:layout_width="match_parent" android:layout_height="130dp" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

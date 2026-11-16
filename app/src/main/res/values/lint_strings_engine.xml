@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lint_engine_history_term">%1$s · %2$s</string>
+    <string name="lint_engine_herb_ratio">%1$d%%</string>
+    <string name="lint_engine_option_label">%1$s  %2$s</string>
+</resources>

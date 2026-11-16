@@ -1,0 +1,435 @@
+[
+  {
+    "bodyTypeId": "pinghe",
+    "bodyName": "平和质",
+    "color": "#4CAF50",
+    "description": "健康均衡，四季通用固本香",
+    "troubles": [
+      "无明显偏颇",
+      "精力平稳",
+      "睡眠正常"
+    ],
+    "junHerbs": [
+      {
+        "name": "老山檀香",
+        "ratio": 40
+      }
+    ],
+    "chenHerbs": [
+      {
+        "name": "陈皮",
+        "ratio": 30
+      }
+    ],
+    "zuoHerbs": [
+      {
+        "name": "薰衣草",
+        "ratio": 20
+      }
+    ],
+    "shiHerbs": [
+      {
+        "name": "榆皮粉",
+        "ratio": 5
+      },
+      {
+        "name": "蜂蜜",
+        "ratio": 5
+      }
+    ],
+    "effect": "调和阴阳、固本养气、日常养护",
+    "products": [
+      "四季随身香囊",
+      "居家线香"
+    ],
+    "contraindications": []
+  },
+  {
+    "bodyTypeId": "qixu",
+    "bodyName": "气虚质",
+    "color": "#FF9800",
+    "description": "易疲劳、自汗易感冒",
+    "troubles": [
+      "易疲惫",
+      "一动出汗",
+      "换季易感冒"
+    ],
+    "junHerbs": [
+      {
+        "name": "黄芪",
+        "ratio": 40
+      }
+    ],
+    "chenHerbs": [
+      {
+        "name": "白术",
+        "ratio": 15
+      },
+      {
+        "name": "老山檀香",
+        "ratio": 15
+      }
+    ],
+    "zuoHerbs": [
+      {
+        "name": "酸枣仁",
+        "ratio": 20
+      }
+    ],
+    "shiHerbs": [
+      {
+        "name": "蜂蜜",
+        "ratio": 10
+      }
+    ],
+    "effect": "补气升阳、固表防外感、缓解乏力",
+    "products": [
+      "办公香插",
+      "随身香珠"
+    ],
+    "contraindications": []
+  },
+  {
+    "bodyTypeId": "yangxu",
+    "bodyName": "阳虚质",
+    "color": "#F44336",
+    "description": "常年手脚冰凉、畏寒腹泻",
+    "troubles": [
+      "常年手脚冰凉",
+      "畏寒腹泻",
+      "精神萎靡"
+    ],
+    "junHerbs": [
+      {
+        "name": "艾叶",
+        "ratio": 40
+      }
+    ],
+    "chenHerbs": [
+      {
+        "name": "肉桂",
+        "ratio": 15
+      },
+      {
+        "name": "丁香",
+        "ratio": 15
+      }
+    ],
+    "zuoHerbs": [
+      {
+        "name": "陈皮",
+        "ratio": 20
+      }
+    ],
+    "shiHerbs": [
+      {
+        "name": "榆皮粉",
+        "ratio": 10
+      }
+    ],
+    "effect": "温脾肾、散寒暖身、改善腹冷",
+    "products": [
+      "热敷香包",
+      "车载香薰"
+    ],
+    "contraindications": [
+      "阴虚火旺慎用"
+    ]
+  },
+  {
+    "bodyTypeId": "yinxu",
+    "bodyName": "阴虚质",
+    "color": "#9C27B0",
+    "description": "五心烦热、盗汗失眠口干",
+    "troubles": [
+      "手心发热",
+      "口干盗汗",
+      "失眠烦躁"
+    ],
+    "junHerbs": [
+      {
+        "name": "百合",
+        "ratio": 20
+      },
+      {
+        "name": "麦冬",
+        "ratio": 20
+      }
+    ],
+    "chenHerbs": [
+      {
+        "name": "玉竹",
+        "ratio": 15
+      },
+      {
+        "name": "酸枣仁",
+        "ratio": 15
+      }
+    ],
+    "zuoHerbs": [
+      {
+        "name": "莲子心",
+        "ratio": 20
+      }
+    ],
+    "shiHerbs": [
+      {
+        "name": "鹅梨汁炼蜜",
+        "ratio": 10
+      }
+    ],
+    "effect": "滋阴降火、清心助眠、缓解燥热",
+    "products": [
+      "卧室睡眠香薰",
+      "枕边香包"
+    ],
+    "contraindications": []
+  },
+  {
+    "bodyTypeId": "tanshi",
+    "bodyName": "痰湿质",
+    "color": "#795548",
+    "description": "身重腹胀痰多、大便黏腻",
+    "troubles": [
+      "身体沉重",
+      "痰多",
+      "大便黏腻"
+    ],
+    "junHerbs": [
+      {
+        "name": "苍术",
+        "ratio": 20
+      },
+      {
+        "name": "藿香",
+        "ratio": 20
+      }
+    ],
+    "chenHerbs": [
+      {
+        "name": "佩兰",
+        "ratio": 15
+      },
+      {
+        "name": "厚朴",
+        "ratio": 15
+      }
+    ],
+    "zuoHerbs": [
+      {
+        "name": "陈皮",
+        "ratio": 20
+      }
+    ],
+    "shiHerbs": [
+      {
+        "name": "榆皮粉",
+        "ratio": 10
+      }
+    ],
+    "effect": "健脾祛湿、化解体内痰湿、缓解身体困重",
+    "products": [
+      "居家盘香",
+      "浴室香氛"
+    ],
+    "contraindications": []
+  },
+  {
+    "bodyTypeId": "shire",
+    "bodyName": "湿热质",
+    "color": "#FF5722",
+    "description": "长痘口苦、身热瘙痒烦躁",
+    "troubles": [
+      "长痘口苦",
+      "皮肤瘙痒",
+      "易上火"
+    ],
+    "junHerbs": [
+      {
+        "name": "茵陈",
+        "ratio": 20
+      },
+      {
+        "name": "金银花",
+        "ratio": 20
+      }
+    ],
+    "chenHerbs": [
+      {
+        "name": "薄荷",
+        "ratio": 15
+      },
+      {
+        "name": "菊花",
+        "ratio": 15
+      }
+    ],
+    "zuoHerbs": [
+      {
+        "name": "冰片",
+        "ratio": 20
+      }
+    ],
+    "shiHerbs": [
+      {
+        "name": "白芨粉",
+        "ratio": 10
+      }
+    ],
+    "effect": "清热燥湿、疏解肝胆郁热、止痒清痘",
+    "products": [
+      "桌面无火香插",
+      "随身清润香囊"
+    ],
+    "contraindications": []
+  },
+  {
+    "bodyTypeId": "xueyu",
+    "bodyName": "血瘀质",
+    "color": "#607D8B",
+    "description": "面色暗沉、周身刺痛痛经",
+    "troubles": [
+      "面色暗沉",
+      "身体刺痛",
+      "经期淤堵"
+    ],
+    "junHerbs": [
+      {
+        "name": "川芎",
+        "ratio": 20
+      },
+      {
+        "name": "玫瑰花",
+        "ratio": 20
+      }
+    ],
+    "chenHerbs": [
+      {
+        "name": "乳香",
+        "ratio": 15
+      },
+      {
+        "name": "降真香",
+        "ratio": 15
+      }
+    ],
+    "zuoHerbs": [
+      {
+        "name": "佛手",
+        "ratio": 20
+      }
+    ],
+    "shiHerbs": [
+      {
+        "name": "蜂蜜",
+        "ratio": 10
+      }
+    ],
+    "effect": "行气活血、散瘀淡斑、舒缓痛经刺痛",
+    "products": [
+      "随身佩戴香珠",
+      "睡前香包"
+    ],
+    "contraindications": [
+      "孕妇禁用"
+    ]
+  },
+  {
+    "bodyTypeId": "qiyu",
+    "bodyName": "气郁质",
+    "color": "#3F51B5",
+    "description": "焦虑压抑、入睡困难胸闷",
+    "troubles": [
+      "焦虑压抑",
+      "入睡困难",
+      "胸闷叹气"
+    ],
+    "junHerbs": [
+      {
+        "name": "佛手",
+        "ratio": 20
+      },
+      {
+        "name": "玫瑰花",
+        "ratio": 20
+      }
+    ],
+    "chenHerbs": [
+      {
+        "name": "合欢花",
+        "ratio": 15
+      },
+      {
+        "name": "酸枣仁",
+        "ratio": 15
+      }
+    ],
+    "zuoHerbs": [
+      {
+        "name": "沉香",
+        "ratio": 20
+      }
+    ],
+    "shiHerbs": [
+      {
+        "name": "榆皮粉",
+        "ratio": 10
+      }
+    ],
+    "effect": "疏肝解郁、舒缓焦虑、改善多梦失眠",
+    "products": [
+      "睡眠热敷包",
+      "办公舒缓香薰"
+    ],
+    "contraindications": []
+  },
+  {
+    "bodyTypeId": "tebing",
+    "bodyName": "特禀质",
+    "color": "#00BCD4",
+    "description": "过敏性鼻炎、皮肤易过敏",
+    "troubles": [
+      "换季鼻炎",
+      "花粉皮肤过敏",
+      "呼吸道不适"
+    ],
+    "junHerbs": [
+      {
+        "name": "辛夷",
+        "ratio": 20
+      },
+      {
+        "name": "苍术",
+        "ratio": 20
+      }
+    ],
+    "chenHerbs": [
+      {
+        "name": "艾叶",
+        "ratio": 15
+      },
+      {
+        "name": "白芷",
+        "ratio": 15
+      }
+    ],
+    "zuoHerbs": [
+      {
+        "name": "薄荷",
+        "ratio": 20
+      }
+    ],
+    "shiHerbs": [
+      {
+        "name": "蜂蜜",
+        "ratio": 10
+      }
+    ],
+    "effect": "宣通鼻窍、抵御花粉尘螨刺激、缓解换季鼻塞流涕",
+    "products": [
+      "随身防疫香珠",
+      "室内防敏香插"
+    ],
+    "contraindications": []
+  }
+]

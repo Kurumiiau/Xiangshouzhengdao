@@ -1,0 +1,292 @@
+[
+  {
+    "solarTerm": "立春",
+    "season": "春",
+    "month": 2,
+    "day": 4,
+    "junHerbs": [
+      "苍术",
+      "川芎"
+    ],
+    "theme": "疏肝防疫",
+    "effect": "疏肝理气、抵御春寒流感"
+  },
+  {
+    "solarTerm": "雨水",
+    "season": "春",
+    "month": 2,
+    "day": 19,
+    "junHerbs": [
+      "香附",
+      "甘松"
+    ],
+    "theme": "疏肝健脾",
+    "effect": "疏肝解郁、健脾化湿"
+  },
+  {
+    "solarTerm": "惊蛰",
+    "season": "春",
+    "month": 3,
+    "day": 5,
+    "junHerbs": [
+      "陈皮",
+      "佛手"
+    ],
+    "theme": "疏肝理气",
+    "effect": "疏肝理气、化解春困"
+  },
+  {
+    "solarTerm": "春分",
+    "season": "春",
+    "month": 3,
+    "day": 21,
+    "junHerbs": [
+      "玄参",
+      "甘松"
+    ],
+    "theme": "疏肝解郁",
+    "effect": "疏肝解郁、舒缓春困烦躁"
+  },
+  {
+    "solarTerm": "清明",
+    "season": "春",
+    "month": 4,
+    "day": 5,
+    "junHerbs": [
+      "菊花",
+      "薄荷"
+    ],
+    "theme": "清肝明目",
+    "effect": "清肝明目、疏风散热"
+  },
+  {
+    "solarTerm": "谷雨",
+    "season": "春",
+    "month": 4,
+    "day": 20,
+    "junHerbs": [
+      "陈皮",
+      "佛手"
+    ],
+    "theme": "化湿疏肝",
+    "effect": "化解暮春湿浊、疏肝健脾"
+  },
+  {
+    "solarTerm": "立夏",
+    "season": "夏",
+    "month": 5,
+    "day": 5,
+    "junHerbs": [
+      "合欢花",
+      "麦冬"
+    ],
+    "theme": "清心火",
+    "effect": "清心火、缓解夏季心烦失眠"
+  },
+  {
+    "solarTerm": "小满",
+    "season": "夏",
+    "month": 5,
+    "day": 21,
+    "junHerbs": [
+      "金银花",
+      "薄荷"
+    ],
+    "theme": "清热解暑",
+    "effect": "清热解暑、疏风散热"
+  },
+  {
+    "solarTerm": "芒种",
+    "season": "夏",
+    "month": 6,
+    "day": 6,
+    "junHerbs": [
+      "藿香",
+      "佩兰"
+    ],
+    "theme": "化湿解暑",
+    "effect": "芳香化湿、解暑除烦"
+  },
+  {
+    "solarTerm": "夏至",
+    "season": "夏",
+    "month": 6,
+    "day": 21,
+    "junHerbs": [
+      "老山檀香",
+      "降真香"
+    ],
+    "theme": "清暑安神",
+    "effect": "清暑湿热、安神解暑"
+  },
+  {
+    "solarTerm": "小暑",
+    "season": "夏",
+    "month": 7,
+    "day": 7,
+    "junHerbs": [
+      "藿香",
+      "佩兰"
+    ],
+    "theme": "化暑湿",
+    "effect": "化解暑湿、去除身体黏腻"
+  },
+  {
+    "solarTerm": "大暑",
+    "season": "夏",
+    "month": 7,
+    "day": 23,
+    "junHerbs": [
+      "金银花",
+      "莲子心"
+    ],
+    "theme": "清内热",
+    "effect": "清内热、改善暑天盗汗心烦"
+  },
+  {
+    "solarTerm": "立秋",
+    "season": "秋",
+    "month": 8,
+    "day": 7,
+    "junHerbs": [
+      "菊花",
+      "白芷"
+    ],
+    "theme": "润肺清燥",
+    "effect": "润肺清燥、缓解秋燥干咳"
+  },
+  {
+    "solarTerm": "处暑",
+    "season": "秋",
+    "month": 8,
+    "day": 23,
+    "junHerbs": [
+      "玉竹",
+      "麦冬"
+    ],
+    "theme": "滋阴润燥",
+    "effect": "滋阴润燥、缓解暑后余热"
+  },
+  {
+    "solarTerm": "白露",
+    "season": "秋",
+    "month": 9,
+    "day": 7,
+    "junHerbs": [
+      "百合",
+      "玉竹"
+    ],
+    "theme": "润肺养阴",
+    "effect": "润肺养阴、缓解秋燥"
+  },
+  {
+    "solarTerm": "秋分",
+    "season": "秋",
+    "month": 9,
+    "day": 23,
+    "junHerbs": [
+      "菊花",
+      "薄荷"
+    ],
+    "theme": "平肝明目",
+    "effect": "平肝明目、疏风清热"
+  },
+  {
+    "solarTerm": "寒露",
+    "season": "秋",
+    "month": 10,
+    "day": 8,
+    "junHerbs": [
+      "降真香",
+      "老山檀香"
+    ],
+    "theme": "润燥祛风",
+    "effect": "润燥祛风、缓解秋凉鼻塞"
+  },
+  {
+    "solarTerm": "霜降",
+    "season": "秋",
+    "month": 10,
+    "day": 23,
+    "junHerbs": [
+      "川芎",
+      "羌活",
+      "菊花"
+    ],
+    "theme": "祛风清头",
+    "effect": "祛风清头、改善秋燥头痛"
+  },
+  {
+    "solarTerm": "立冬",
+    "season": "冬",
+    "month": 11,
+    "day": 7,
+    "junHerbs": [
+      "沉香",
+      "丁香"
+    ],
+    "theme": "温肾纳气",
+    "effect": "温肾纳气、冬日安神"
+  },
+  {
+    "solarTerm": "小雪",
+    "season": "冬",
+    "month": 11,
+    "day": 22,
+    "junHerbs": [
+      "肉桂",
+      "艾叶"
+    ],
+    "theme": "温阳散寒",
+    "effect": "温阳散寒、抵御初寒"
+  },
+  {
+    "solarTerm": "大雪",
+    "season": "冬",
+    "month": 12,
+    "day": 7,
+    "junHerbs": [
+      "干姜",
+      "肉桂"
+    ],
+    "theme": "温中散寒",
+    "effect": "温中散寒、增强御寒"
+  },
+  {
+    "solarTerm": "冬至",
+    "season": "冬",
+    "month": 12,
+    "day": 22,
+    "junHerbs": [
+      "肉桂",
+      "艾叶"
+    ],
+    "theme": "温补元阳",
+    "effect": "温补元阳、抵御寒冬畏寒"
+  },
+  {
+    "solarTerm": "小寒",
+    "season": "冬",
+    "month": 1,
+    "day": 5,
+    "junHerbs": [
+      "附子",
+      "肉桂"
+    ],
+    "theme": "温肾助阳",
+    "effect": "温肾助阳、增强抗寒"
+  },
+  {
+    "solarTerm": "大寒",
+    "season": "冬",
+    "month": 1,
+    "day": 20,
+    "junHerbs": [
+      "乳香",
+      "苍术",
+      "降真香"
+    ],
+    "theme": "温阳避寒",
+    "effect": "温阳避寒、冬春交替防疫"
+  }
+]

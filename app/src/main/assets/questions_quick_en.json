@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "text": "I adapt well to heat and cold all year round and rarely fall ill.",
+    "bodyType": "pinghe",
+    "reverse": false,
+    "group": 1
+  },
+  {
+    "id": 2,
+    "text": "Even light activity leaves me exhausted and short of breath.",
+    "bodyType": "qixu",
+    "reverse": false,
+    "group": 2
+  },
+  {
+    "id": 3,
+    "text": "My hands and feet stay cold all year; I fear cold and prefer warmth.",
+    "bodyType": "yangxu",
+    "reverse": false,
+    "group": 3
+  },
+  {
+    "id": 4,
+    "text": "My palms and soles often feel hot, with a dry mouth and poor sleep.",
+    "bodyType": "yinxu",
+    "reverse": false,
+    "group": 4
+  },
+  {
+    "id": 5,
+    "text": "My body feels heavy with phlegm, and my stools stick to the toilet.",
+    "bodyType": "tanshi",
+    "reverse": false,
+    "group": 5
+  },
+  {
+    "id": 6,
+    "text": "I get pimples easily, taste bitterness in my mouth, and have itchy skin.",
+    "bodyType": "shire",
+    "reverse": false,
+    "group": 6
+  },
+  {
+    "id": 7,
+    "text": "My complexion is dull and I often feel unexplained stabbing pains.",
+    "bodyType": "xueyu",
+    "reverse": false,
+    "group": 7
+  },
+  {
+    "id": 8,
+    "text": "I have long-term anxiety and low mood, with trouble falling asleep and vivid dreams.",
+    "bodyType": "qiyu",
+    "reverse": false,
+    "group": 8
+  },
+  {
+    "id": 9,
+    "text": "Season changes bring allergic rhinitis — sneezing and a stuffy, runny nose.",
+    "bodyType": "tebing",
+    "reverse": false,
+    "group": 9
+  },
+  {
+    "id": 10,
+    "text": "I sleep soundly and my mood is calm; I am seldom irritable.",
+    "bodyType": "pinghe",
+    "reverse": false,
+    "group": 1
+  },
+  {
+    "id": 11,
+    "text": "Wind and season changes give me colds easily, and I sweat when I move.",
+    "bodyType": "qixu",
+    "reverse": false,
+    "group": 2
+  },
+  {
+    "id": 12,
+    "text": "Under stress my chest feels tight and I sigh often.",
+    "bodyType": "qiyu",
+    "reverse": false,
+    "group": 8
+  }
+]

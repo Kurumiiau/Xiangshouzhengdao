@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lint_calendar_current">当前节气：%1$s</string>
+    <string name="lint_calendar_next">下个节气：%1$s</string>
+    <string name="lint_solar_herbs">君药：%1$s</string>
+    <plurals name="lint_calendar_days">
+        <item quantity="other">还有 %1$d 天</item>
+    </plurals>
+</resources>

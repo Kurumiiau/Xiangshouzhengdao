@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "text": "一年四季冷热适应力很好，很少生病",
+    "bodyType": "pinghe",
+    "reverse": false,
+    "group": 1
+  },
+  {
+    "id": 2,
+    "text": "稍微活动就浑身乏力、气短",
+    "bodyType": "qixu",
+    "reverse": false,
+    "group": 2
+  },
+  {
+    "id": 3,
+    "text": "常年手脚冰凉，怕冷喜热",
+    "bodyType": "yangxu",
+    "reverse": false,
+    "group": 3
+  },
+  {
+    "id": 4,
+    "text": "经常手脚心发热、口干失眠",
+    "bodyType": "yinxu",
+    "reverse": false,
+    "group": 4
+  },
+  {
+    "id": 5,
+    "text": "身体沉重痰多，大便黏马桶",
+    "bodyType": "tanshi",
+    "reverse": false,
+    "group": 5
+  },
+  {
+    "id": 6,
+    "text": "容易长痘、口苦、皮肤瘙痒",
+    "bodyType": "shire",
+    "reverse": false,
+    "group": 6
+  },
+  {
+    "id": 7,
+    "text": "面色暗沉，经常莫名身上刺痛",
+    "bodyType": "xueyu",
+    "reverse": false,
+    "group": 7
+  },
+  {
+    "id": 8,
+    "text": "长期焦虑压抑，入睡困难多梦",
+    "bodyType": "qiyu",
+    "reverse": false,
+    "group": 8
+  },
+  {
+    "id": 9,
+    "text": "换季易过敏性鼻炎、鼻塞流涕",
+    "bodyType": "tebing",
+    "reverse": false,
+    "group": 9
+  },
+  {
+    "id": 10,
+    "text": "睡眠安稳，情绪平稳不易烦躁",
+    "bodyType": "pinghe",
+    "reverse": false,
+    "group": 1
+  },
+  {
+    "id": 11,
+    "text": "吹风换季极易感冒、一动出汗多",
+    "bodyType": "qixu",
+    "reverse": false,
+    "group": 2
+  },
+  {
+    "id": 12,
+    "text": "压力大时常胸闷、爱叹气",
+    "bodyType": "qiyu",
+    "reverse": false,
+    "group": 8
+  }
+]

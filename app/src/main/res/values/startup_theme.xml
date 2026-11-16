@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Xiangshouzhengdao.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/bg_main</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_brand_icon</item>
+        <item name="postSplashScreenTheme">@style/Theme.Xiangshouzhengdao</item>
+    </style>
+</resources>

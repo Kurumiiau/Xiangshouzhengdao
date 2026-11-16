@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="24dp" app:cardElevation="0dp" app:cardBackgroundColor="@color/glass_white" app:strokeColor="@color/glass_stroke" app:strokeWidth="1dp" android:layout_marginBottom="12dp" android:clickable="true" android:focusable="true" android:foreground="@drawable/ripple_soft">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="18dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:baselineAligned="false">
+            <TextView android:id="@+id/tvBodyType" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" tools:text="气郁体质" android:textSize="17sp" android:textStyle="bold" android:textColor="@color/text_primary" android:includeFontPadding="false" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/navigation_chevron" android:textSize="20sp" android:textColor="@color/text_hint" android:includeFontPadding="false" />
+        </LinearLayout>
+        <TextView android:id="@+id/tvSolarTerm" android:layout_width="wrap_content" android:layout_height="wrap_content" tools:text="小暑 · 专属香方" android:textSize="12.5sp" android:textColor="@color/text_secondary" android:layout_marginTop="4dp" android:includeFontPadding="false" />
+        <TextView android:id="@+id/tvEffect" android:layout_width="wrap_content" android:layout_height="wrap_content" tools:text="疏肝解郁、理气安神" android:textSize="14sp" android:textColor="@color/primary" android:layout_marginTop="8dp" android:maxLines="2" android:ellipsize="end" android:includeFontPadding="false" />
+        <TextView android:id="@+id/tvDate" android:layout_width="wrap_content" android:layout_height="wrap_content" tools:text="收藏于 2026-07-14" android:textSize="12sp" android:textColor="@color/text_hint" android:layout_marginTop="8dp" android:includeFontPadding="false" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

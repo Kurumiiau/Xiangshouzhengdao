@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:fitsSystemWindows="true">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:background="@color/bg_main" app:navigationIcon="@drawable/ic_back" app:navigationIconTint="@color/text_primary" app:titleTextColor="@color/text_primary">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/herb_detail_title" android:textSize="20sp" android:textStyle="bold" android:textColor="@color/text_primary" android:layout_gravity="center" android:includeFontPadding="false" />
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/bg_glass" android:padding="20dp">
+                <TextView android:id="@+id/tvHerbName" android:layout_width="wrap_content" android:layout_height="wrap_content" tools:text="沉香" android:textColor="@color/text_primary" android:textSize="26sp" android:textStyle="bold" android:includeFontPadding="false" />
+                <TextView android:id="@+id/tvRole" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" tools:text="君" android:textColor="@color/text_white" android:textSize="12sp" android:textStyle="bold" android:background="@drawable/bg_body_type_badge" android:paddingStart="10dp" android:paddingEnd="10dp" android:paddingTop="4dp" android:paddingBottom="4dp" android:includeFontPadding="false" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:orientation="vertical" android:background="@drawable/bg_glass" android:padding="20dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/herb_basic" android:textColor="@color/primary" android:textSize="14sp" android:textStyle="bold" android:includeFontPadding="false" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="14dp" android:baselineAligned="false">
+                    <TextView android:layout_width="56dp" android:layout_height="wrap_content" android:text="@string/herb_nature" android:textColor="@color/text_hint" android:textSize="13sp" android:includeFontPadding="false" />
+                    <TextView android:id="@+id/tvNature" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" tools:text="辛、苦,微温" android:textColor="@color/text_primary" android:textSize="14sp" android:includeFontPadding="false" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="10dp" android:baselineAligned="false">
+                    <TextView android:layout_width="56dp" android:layout_height="wrap_content" android:text="@string/herb_meridian" android:textColor="@color/text_hint" android:textSize="13sp" android:includeFontPadding="false" />
+                    <TextView android:id="@+id/tvMeridian" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" tools:text="脾、胃、肾" android:textColor="@color/text_primary" android:textSize="14sp" android:includeFontPadding="false" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="10dp" android:baselineAligned="false">
+                    <TextView android:layout_width="56dp" android:layout_height="wrap_content" android:text="@string/herb_effect" android:textColor="@color/text_hint" android:textSize="13sp" android:includeFontPadding="false" />
+                    <TextView android:id="@+id/tvEffect" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" tools:text="行气纳气、安神降郁" android:textColor="@color/text_primary" android:textSize="14sp" android:lineSpacingMultiplier="1.35" android:includeFontPadding="false" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:orientation="vertical" android:background="@drawable/bg_glass" android:padding="20dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/herb_baike" android:textColor="@color/primary" android:textSize="14sp" android:textStyle="bold" android:includeFontPadding="false" />
+                <ProgressBar android:id="@+id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_marginTop="16dp" />
+                <TextView android:id="@+id/tvBaikeContent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:textColor="@color/text_primary" android:textSize="14sp" android:lineSpacingMultiplier="1.5" android:visibility="gone" android:includeFontPadding="false" />
+                <LinearLayout android:id="@+id/errorLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center" android:layout_marginTop="16dp" android:visibility="gone">
+                    <TextView android:id="@+id/tvRetryHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/herb_baike_fail" android:textColor="@color/text_hint" android:textSize="13sp" android:includeFontPadding="false" />
+                    <TextView android:id="@+id/btnRetry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/herb_retry" android:textColor="@color/primary" android:textSize="14sp" android:padding="10dp" android:background="?attr/selectableItemBackground" android:includeFontPadding="false" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="24dp" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

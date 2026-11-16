@@ -1,0 +1,31 @@
+# 本地工具与构建输出
+.gradle/
+.kotlin/
+.idea/
+**/build/
+**/release/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.iml
+.DS_Store
+Thumbs.db
+
+# 本机配置、密钥与环境
+local.properties
+*.jks
+*.keystore
+.env
+.env.*
+
+# 安装包与调试输出；安装包发布到GitHub Release
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.hprof
+*.log
+
+# 含本机路径的临时交接文件
+/四份技术文档编写交接.md

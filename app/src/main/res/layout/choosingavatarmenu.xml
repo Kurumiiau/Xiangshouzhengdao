@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="8dp" android:background="@color/bg_card" tools:ignore="Overdraw">
+    <!-- 此布局由独立 Dialog 主题承载，背景不属于 Lint 推断的 Activity window；保留弹窗所需底色。 -->
+    <TextView android:id="@+id/tv_check_avatar" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="16dp" android:gravity="center" android:text="@string/avatar_view" android:textSize="15.5sp" android:textColor="@color/text_primary" android:background="?attr/selectableItemBackground" android:includeFontPadding="false" />
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider" />
+    <TextView android:id="@+id/tv_take_photo" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="16dp" android:gravity="center" android:text="@string/avatar_camera" android:textSize="15.5sp" android:textColor="@color/text_primary" android:background="?attr/selectableItemBackground" android:includeFontPadding="false" />
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider" />
+    <TextView android:id="@+id/tv_choose_gallery" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="16dp" android:gravity="center" android:text="@string/avatar_gallery" android:textSize="15.5sp" android:textColor="@color/text_primary" android:background="?attr/selectableItemBackground" android:includeFontPadding="false" />
+    <View android:layout_width="match_parent" android:layout_height="8dp" android:background="@color/divider" />
+    <TextView android:id="@+id/tv_cancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="16dp" android:gravity="center" android:text="@string/cancel" android:textSize="15.5sp" android:textColor="@color/accent" android:background="?attr/selectableItemBackground" android:includeFontPadding="false" />
+</LinearLayout>

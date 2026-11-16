@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:fitsSystemWindows="true">
+    <LinearLayout android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="56dp" android:orientation="horizontal" android:gravity="center_vertical" android:paddingStart="16dp" android:paddingEnd="16dp" android:clickable="true" android:focusable="true" android:baselineAligned="false" android:contentDescription="@string/cd_back">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/body_list_title" android:textColor="@color/text_primary" android:textSize="20sp" android:textStyle="bold" android:includeFontPadding="false" app:drawableStartCompat="@drawable/ic_back" app:drawableTint="@color/text_primary" android:drawablePadding="14dp" android:gravity="center_vertical" />
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/body_list_hint" android:textSize="13sp" android:textColor="@color/text_hint" android:layout_marginBottom="12dp" android:includeFontPadding="false" />
+            <androidx.cardview.widget.CardView android:id="@+id/cardPinghe" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" app:cardCornerRadius="24dp" app:cardElevation="0dp" app:cardBackgroundColor="@color/glass_white" android:clickable="true" android:focusable="true" android:foreground="@drawable/ripple_soft">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:padding="16dp" android:baselineAligned="false">
+                    <FrameLayout android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/bg_icon_tile" android:backgroundTint="@color/bg_warm">
+                        <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_gravity="center" android:src="@drawable/ic_knowledge" android:importantForAccessibility="no" app:tint="@color/primary" />
+                    </FrameLayout>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="14dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/body_ph_title" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/text_primary" android:includeFontPadding="false" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/body_ph_desc" android:textSize="12.5sp" android:textColor="@color/text_secondary" android:includeFontPadding="false" />
+                    </LinearLayout>
+                    <ImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_arrow_right" android:alpha="0.35" android:importantForAccessibility="no" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/cardQixu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" app:cardCornerRadius="24dp" app:cardElevation="0dp" app:cardBackgroundColor="@color/glass_white" android:clickable="true" android:focusable="true" android:foreground="@drawable/ripple_soft">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:padding="16dp" android:baselineAligned="false">
+                    <FrameLayout android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/bg_icon_tile" android:backgroundTint="@color/bg_warm">
+                        <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_gravity="center" android:src="@drawable/ic_knowledge" android:importantForAccessibility="no" app:tint="@color/primary" />
+                    </FrameLayout>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="14dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/body_qx_title" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/text_primary" android:includeFontPadding="false" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/body_qx_desc" android:textSize="12.5sp" android:textColor="@color/text_secondary" android:includeFontPadding="false" />
+                    </LinearLayout>
+                    <ImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_arrow_right" android:alpha="0.35" android:importantForAccessibility="no" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/cardYangxu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" app:cardCornerRadius="24dp" app:cardElevation="0dp" app:cardBackgroundColor="@color/glass_white" android:clickable="true" android:focusable="true" android:foreground="@drawable/ripple_soft">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:padding="16dp" android:baselineAligned="false">
+                    <FrameLayout android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/bg_icon_tile" android:backgroundTint="@color/bg_warm">
+                        <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_gravity="center" android:src="@drawable/ic_knowledge" android:importantForAccessibility="no" app:tint="@color/primary" />
+                    </FrameLayout>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="14dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/body_yx_title" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/text_primary" android:includeFontPadding="false" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/body_yx_desc" android:textSize="12.5sp" android:textColor="@color/text_secondary" android:includeFontPadding="false" />
+                    </LinearLayout>
+                    <ImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_arrow_right" android:alpha="0.35" android:importantForAccessibility="no" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/cardYinxu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" app:cardCornerRadius="24dp" app:cardElevation="0dp" app:cardBackgroundColor="@color/glass_white" android:clickable="true" android:focusable="true" android:foreground="@drawable/ripple_soft">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:padding="16dp" android:baselineAligned="false">
+                    <FrameLayout android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/bg_icon_tile" android:backgroundTint="@color/bg_warm">
+                        <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_gravity="center" android:src="@drawable/ic_knowledge" android:importantForAccessibility="no" app:tint="@color/primary" />
+                    </FrameLayout>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="14dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/body_yin_title" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/text_primary" android:includeFontPadding="false" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/body_yin_desc" android:textSize="12.5sp" android:textColor="@color/text_secondary" android:includeFontPadding="false" />
+                    </LinearLayout>
+                    <ImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_arrow_right" android:alpha="0.35" android:importantForAccessibility="no" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/cardTanshi" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" app:cardCornerRadius="24dp" app:cardElevation="0dp" app:cardBackgroundColor="@color/glass_white" android:clickable="true" android:focusable="true" android:foreground="@drawable/ripple_soft">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:padding="16dp" android:baselineAligned="false">
+                    <FrameLayout android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/bg_icon_tile" android:backgroundTint="@color/bg_warm">
+                        <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_gravity="center" android:src="@drawable/ic_knowledge" android:importantForAccessibility="no" app:tint="@color/primary" />
+                    </FrameLayout>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="14dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/body_ts_title" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/text_primary" android:includeFontPadding="false" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/body_ts_desc" android:textSize="12.5sp" android:textColor="@color/text_secondary" android:includeFontPadding="false" />
+                    </LinearLayout>
+                    <ImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_arrow_right" android:alpha="0.35" android:importantForAccessibility="no" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/cardShire" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" app:cardCornerRadius="24dp" app:cardElevation="0dp" app:cardBackgroundColor="@color/glass_white" android:clickable="true" android:focusable="true" android:foreground="@drawable/ripple_soft">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:padding="16dp" android:baselineAligned="false">
+                    <FrameLayout android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/bg_icon_tile" android:backgroundTint="@color/bg_warm">
+                        <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_gravity="center" android:src="@drawable/ic_knowledge" android:importantForAccessibility="no" app:tint="@color/primary" />
+                    </FrameLayout>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="14dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/body_sr_title" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/text_primary" android:includeFontPadding="false" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/body_sr_desc" android:textSize="12.5sp" android:textColor="@color/text_secondary" android:includeFontPadding="false" />
+                    </LinearLayout>
+                    <ImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_arrow_right" android:alpha="0.35" android:importantForAccessibility="no" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/cardXueyu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" app:cardCornerRadius="24dp" app:cardElevation="0dp" app:cardBackgroundColor="@color/glass_white" android:clickable="true" android:focusable="true" android:foreground="@drawable/ripple_soft">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:padding="16dp" android:baselineAligned="false">
+                    <FrameLayout android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/bg_icon_tile" android:backgroundTint="@color/bg_warm">
+                        <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_gravity="center" android:src="@drawable/ic_knowledge" android:importantForAccessibility="no" app:tint="@color/primary" />
+                    </FrameLayout>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="14dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/body_xy_title" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/text_primary" android:includeFontPadding="false" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/body_xy_desc" android:textSize="12.5sp" android:textColor="@color/text_secondary" android:includeFontPadding="false" />
+                    </LinearLayout>
+                    <ImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_arrow_right" android:alpha="0.35" android:importantForAccessibility="no" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/cardQiyu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" app:cardCornerRadius="24dp" app:cardElevation="0dp" app:cardBackgroundColor="@color/glass_white" android:clickable="true" android:focusable="true" android:foreground="@drawable/ripple_soft">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:padding="16dp" android:baselineAligned="false">
+                    <FrameLayout android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/bg_icon_tile" android:backgroundTint="@color/bg_warm">
+                        <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_gravity="center" android:src="@drawable/ic_knowledge" android:importantForAccessibility="no" app:tint="@color/primary" />
+                    </FrameLayout>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="14dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/body_qy_title" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/text_primary" android:includeFontPadding="false" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/body_qy_desc" android:textSize="12.5sp" android:textColor="@color/text_secondary" android:includeFontPadding="false" />
+                    </LinearLayout>
+                    <ImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_arrow_right" android:alpha="0.35" android:importantForAccessibility="no" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/cardTebing" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" app:cardCornerRadius="24dp" app:cardElevation="0dp" app:cardBackgroundColor="@color/glass_white" android:clickable="true" android:focusable="true" android:foreground="@drawable/ripple_soft">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:padding="16dp" android:baselineAligned="false">
+                    <FrameLayout android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/bg_icon_tile" android:backgroundTint="@color/bg_warm">
+                        <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_gravity="center" android:src="@drawable/ic_knowledge" android:importantForAccessibility="no" app:tint="@color/primary" />
+                    </FrameLayout>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="14dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/body_tb_title" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/text_primary" android:includeFontPadding="false" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/body_tb_desc" android:textSize="12.5sp" android:textColor="@color/text_secondary" android:includeFontPadding="false" />
+                    </LinearLayout>
+                    <ImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_arrow_right" android:alpha="0.35" android:importantForAccessibility="no" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

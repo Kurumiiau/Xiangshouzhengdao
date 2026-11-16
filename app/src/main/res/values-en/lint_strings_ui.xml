@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_temperature_celsius">%1$d°C</string>
+    <string name="ui_weather_location">%1$s · %2$s</string>
+    <string name="ui_term_badge">%1$s · %2$s</string>
+    <string name="ui_username_value">Username: %1$s</string>
+    <string name="ui_saved_on_date">Saved on %1$s</string>
+    <string name="ui_saved_at_datetime">Saved at: %1$s</string>
+    <string name="ui_ratio_percent">%1$d%%</string>
+</resources>

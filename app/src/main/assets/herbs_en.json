@@ -1,0 +1,1470 @@
+[
+  {
+    "herbId": "herb_001",
+    "name": "沉香",
+    "pinyin": "chenxiang",
+    "nature": "Acrid, bitter; slightly warm",
+    "meridian": "Spleen, Stomach, Kidney",
+    "effect": "Moves qi and grasps qi; calms the mind and lifts depression",
+    "role": "君",
+    "bodyTypes": [
+      "qiyu",
+      "yinxu",
+      "pinghe"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏",
+      "夏至",
+      "立秋",
+      "秋分",
+      "立冬",
+      "冬至"
+    ],
+    "contraindications": [
+      "孕妇少量慎用"
+    ],
+    "volatility": "熏",
+    "category": "木质定香类"
+  },
+  {
+    "herbId": "herb_002",
+    "name": "老山檀香",
+    "pinyin": "laoshantanxiang",
+    "nature": "Acrid, warm",
+    "meridian": "Spleen, Stomach, Lung",
+    "effect": "Warms the middle, calms the mind, regulates qi and harmonizes the center",
+    "role": "君",
+    "bodyTypes": [
+      "qixu",
+      "yangxu",
+      "pinghe"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏",
+      "夏至",
+      "立秋",
+      "秋分",
+      "立冬",
+      "冬至"
+    ],
+    "contraindications": [],
+    "volatility": "全品类通用",
+    "category": "木质定香类"
+  },
+  {
+    "herbId": "herb_003",
+    "name": "崖柏",
+    "pinyin": "yabai",
+    "nature": "Bitter, neutral",
+    "meridian": "Heart, Lung",
+    "effect": "Clears the mind, relieves depression, dispels dampness",
+    "role": "君",
+    "bodyTypes": [
+      "tanshi",
+      "qiyu"
+    ],
+    "solarTerms": [
+      "春分",
+      "立夏",
+      "夏至",
+      "立秋"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "木质定香类"
+  },
+  {
+    "herbId": "herb_004",
+    "name": "降真香",
+    "pinyin": "jiangzhenxiang",
+    "nature": "Acrid, warm",
+    "meridian": "Liver, Spleen",
+    "effect": "Invigorates blood, wards off foulness, dispels wind",
+    "role": "君",
+    "bodyTypes": [
+      "xueyu",
+      "tebing"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏",
+      "夏至",
+      "立秋",
+      "秋分",
+      "立冬",
+      "冬至"
+    ],
+    "contraindications": [
+      "孕妇慎用"
+    ],
+    "volatility": "熏",
+    "category": "木质定香类"
+  },
+  {
+    "herbId": "herb_005",
+    "name": "安息香",
+    "pinyin": "anxixiang",
+    "nature": "Acrid, neutral",
+    "meridian": "Heart, Spleen",
+    "effect": "Opens the orifices, relieves depression, calms the mind",
+    "role": "佐",
+    "bodyTypes": [
+      "qiyu",
+      "yinxu"
+    ],
+    "solarTerms": [
+      "立冬",
+      "冬至",
+      "大寒"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "木质定香类"
+  },
+  {
+    "herbId": "herb_006",
+    "name": "苏合香",
+    "pinyin": "suhexiang",
+    "nature": "Acrid, warm",
+    "meridian": "Heart, Spleen",
+    "effect": "Opens stagnation, awakens the spleen",
+    "role": "佐",
+    "bodyTypes": [
+      "qiyu",
+      "tanshi"
+    ],
+    "solarTerms": [
+      "冬至",
+      "大寒"
+    ],
+    "contraindications": [
+      "孕妇禁用"
+    ],
+    "volatility": "熏",
+    "category": "木质定香类"
+  },
+  {
+    "herbId": "herb_007",
+    "name": "肉桂",
+    "pinyin": "rougui",
+    "nature": "Acrid, sweet; strongly hot",
+    "meridian": "Kidney, Spleen",
+    "effect": "Warms yang and disperses cold",
+    "role": "君",
+    "bodyTypes": [
+      "yangxu"
+    ],
+    "solarTerms": [
+      "立冬",
+      "冬至",
+      "小寒",
+      "大寒"
+    ],
+    "contraindications": [
+      "阴虚火旺禁用"
+    ],
+    "volatility": "熏",
+    "category": "温阳散寒类"
+  },
+  {
+    "herbId": "herb_008",
+    "name": "丁香",
+    "pinyin": "dingxiang",
+    "nature": "Acrid, warm",
+    "meridian": "Spleen, Stomach",
+    "effect": "Warms the middle, wards off foulness",
+    "role": "臣",
+    "bodyTypes": [
+      "yangxu",
+      "tanshi"
+    ],
+    "solarTerms": [
+      "立冬",
+      "冬至",
+      "立春"
+    ],
+    "contraindications": [
+      "内热禁用"
+    ],
+    "volatility": "熏",
+    "category": "温阳散寒类"
+  },
+  {
+    "herbId": "herb_009",
+    "name": "艾叶",
+    "pinyin": "aiye",
+    "nature": "Acrid, bitter, warm",
+    "meridian": "Liver, Kidney",
+    "effect": "Warms the meridians, disperses cold, guards against epidemics",
+    "role": "君",
+    "bodyTypes": [
+      "yangxu",
+      "tebing"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏",
+      "夏至",
+      "立秋",
+      "秋分",
+      "立冬",
+      "冬至"
+    ],
+    "contraindications": [],
+    "volatility": "熏/佩戴",
+    "category": "温阳散寒类"
+  },
+  {
+    "herbId": "herb_010",
+    "name": "干姜",
+    "pinyin": "ganjiang",
+    "nature": "Acrid, hot",
+    "meridian": "Spleen, Stomach",
+    "effect": "Warms the middle",
+    "role": "臣",
+    "bodyTypes": [
+      "yangxu"
+    ],
+    "solarTerms": [
+      "冬至",
+      "大寒"
+    ],
+    "contraindications": [
+      "阴虚忌"
+    ],
+    "volatility": "熏",
+    "category": "温阳散寒类"
+  },
+  {
+    "herbId": "herb_011",
+    "name": "苍术",
+    "pinyin": "cangzhu",
+    "nature": "Acrid, bitter, warm",
+    "meridian": "Spleen, Stomach",
+    "effect": "Dries dampness, wards off foulness",
+    "role": "君",
+    "bodyTypes": [
+      "tanshi",
+      "tebing"
+    ],
+    "solarTerms": [
+      "立夏",
+      "小满",
+      "芒种",
+      "夏至",
+      "大暑",
+      "立秋"
+    ],
+    "contraindications": [
+      "阴虚少用"
+    ],
+    "volatility": "熏",
+    "category": "健脾化湿类"
+  },
+  {
+    "herbId": "herb_012",
+    "name": "藿香",
+    "pinyin": "huoxiang",
+    "nature": "Acrid, slightly warm",
+    "meridian": "Spleen, Stomach",
+    "effect": "Aromatically transforms dampness",
+    "role": "君",
+    "bodyTypes": [
+      "tanshi",
+      "shire"
+    ],
+    "solarTerms": [
+      "立夏",
+      "小满",
+      "芒种",
+      "夏至",
+      "大暑"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "健脾化湿类"
+  },
+  {
+    "herbId": "herb_013",
+    "name": "佩兰",
+    "pinyin": "peilan",
+    "nature": "Acrid, neutral",
+    "meridian": "Spleen, Stomach",
+    "effect": "Relieves summer heat, resolves turbidity",
+    "role": "臣",
+    "bodyTypes": [
+      "shire",
+      "tanshi"
+    ],
+    "solarTerms": [
+      "立夏",
+      "小满",
+      "芒种",
+      "夏至",
+      "大暑"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "健脾化湿类"
+  },
+  {
+    "herbId": "herb_014",
+    "name": "陈皮",
+    "pinyin": "chenpi",
+    "nature": "Acrid, bitter, warm",
+    "meridian": "Spleen, Lung",
+    "effect": "Regulates qi, resolves phlegm",
+    "role": "佐",
+    "bodyTypes": [
+      "pinghe",
+      "qixu",
+      "yangxu",
+      "tanshi"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏",
+      "夏至",
+      "立秋",
+      "秋分",
+      "立冬",
+      "冬至"
+    ],
+    "contraindications": [],
+    "volatility": "熏/佩戴",
+    "category": "健脾化湿类"
+  },
+  {
+    "herbId": "herb_015",
+    "name": "砂仁",
+    "pinyin": "share",
+    "nature": "Acrid, warm",
+    "meridian": "Spleen, Stomach",
+    "effect": "Awakens the spleen, harmonizes the stomach",
+    "role": "臣",
+    "bodyTypes": [
+      "tanshi",
+      "qixu"
+    ],
+    "solarTerms": [
+      "春分",
+      "立夏",
+      "夏至"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "健脾化湿类"
+  },
+  {
+    "herbId": "herb_016",
+    "name": "厚朴",
+    "pinyin": "houpo",
+    "nature": "Bitter, warm",
+    "meridian": "Spleen, Stomach",
+    "effect": "Moves qi, reduces distension",
+    "role": "臣",
+    "bodyTypes": [
+      "tanshi"
+    ],
+    "solarTerms": [
+      "立夏",
+      "小满",
+      "芒种",
+      "夏至",
+      "大暑"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "健脾化湿类"
+  },
+  {
+    "herbId": "herb_017",
+    "name": "玫瑰花",
+    "pinyin": "meiguihua",
+    "nature": "Sweet, slightly bitter, warm",
+    "meridian": "Liver",
+    "effect": "Soothes the liver, invigorates blood",
+    "role": "君",
+    "bodyTypes": [
+      "qiyu",
+      "xueyu"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "谷雨"
+    ],
+    "contraindications": [
+      "孕妇少量"
+    ],
+    "volatility": "熏/佩戴",
+    "category": "疏肝安神类"
+  },
+  {
+    "herbId": "herb_018",
+    "name": "佛手",
+    "pinyin": "foshou",
+    "nature": "Acrid, bitter, warm",
+    "meridian": "Liver, Stomach",
+    "effect": "Soothes the liver, eases the chest",
+    "role": "君",
+    "bodyTypes": [
+      "qiyu"
+    ],
+    "solarTerms": [
+      "春分",
+      "立夏",
+      "夏至"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "疏肝安神类"
+  },
+  {
+    "herbId": "herb_019",
+    "name": "酸枣仁",
+    "pinyin": "suanzaoren",
+    "nature": "Sweet, neutral",
+    "meridian": "Heart, Liver",
+    "effect": "Nourishes the heart, calms the mind",
+    "role": "臣",
+    "bodyTypes": [
+      "yinxu",
+      "qiyu"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏",
+      "夏至",
+      "立秋",
+      "秋分",
+      "立冬",
+      "冬至"
+    ],
+    "contraindications": [],
+    "volatility": "熏/佩戴",
+    "category": "疏肝安神类"
+  },
+  {
+    "herbId": "herb_020",
+    "name": "合欢花",
+    "pinyin": "hehuanhua",
+    "nature": "Sweet, neutral",
+    "meridian": "Heart, Liver",
+    "effect": "Relieves depression, calms the mind",
+    "role": "臣",
+    "bodyTypes": [
+      "qiyu"
+    ],
+    "solarTerms": [
+      "春分",
+      "立夏",
+      "夏至"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "疏肝安神类"
+  },
+  {
+    "herbId": "herb_021",
+    "name": "远志",
+    "pinyin": "yuanzhi",
+    "nature": "Bitter, warm",
+    "meridian": "Heart, Kidney",
+    "effect": "Tranquilizes the heart, steadies the spirit",
+    "role": "佐",
+    "bodyTypes": [
+      "yinxu",
+      "qiyu"
+    ],
+    "solarTerms": [
+      "立冬",
+      "冬至"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "疏肝安神类"
+  },
+  {
+    "herbId": "herb_022",
+    "name": "薰衣草",
+    "pinyin": "xunyicao",
+    "nature": "Sweet, neutral",
+    "meridian": "Heart, Lung",
+    "effect": "Relaxes the body, aids sleep",
+    "role": "佐",
+    "bodyTypes": [
+      "qiyu",
+      "yinxu"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏",
+      "夏至",
+      "立秋",
+      "秋分",
+      "立冬",
+      "冬至"
+    ],
+    "contraindications": [],
+    "volatility": "熏/佩戴",
+    "category": "疏肝安神类"
+  },
+  {
+    "herbId": "herb_023",
+    "name": "麦冬",
+    "pinyin": "maidong",
+    "nature": "Sweet, slightly cold",
+    "meridian": "Lung, Heart",
+    "effect": "Nourishes yin, generates fluids",
+    "role": "臣",
+    "bodyTypes": [
+      "yinxu"
+    ],
+    "solarTerms": [
+      "立夏",
+      "小满",
+      "芒种",
+      "夏至",
+      "大暑",
+      "立秋",
+      "处暑"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "清润滋阴类"
+  },
+  {
+    "herbId": "herb_024",
+    "name": "百合",
+    "pinyin": "baihe",
+    "nature": "Sweet, slightly cold",
+    "meridian": "Heart, Lung",
+    "effect": "Clears the heart, calms the mind",
+    "role": "君",
+    "bodyTypes": [
+      "yinxu"
+    ],
+    "solarTerms": [
+      "夏至",
+      "小暑",
+      "大暑",
+      "立秋",
+      "处暑",
+      "白露",
+      "秋分"
+    ],
+    "contraindications": [],
+    "volatility": "熏/佩戴",
+    "category": "清润滋阴类"
+  },
+  {
+    "herbId": "herb_025",
+    "name": "莲子心",
+    "pinyin": "lianzixin",
+    "nature": "Bitter, cold",
+    "meridian": "Heart",
+    "effect": "Clears the heart, subdues fire",
+    "role": "佐",
+    "bodyTypes": [
+      "shire",
+      "yinxu"
+    ],
+    "solarTerms": [
+      "立夏",
+      "小满",
+      "芒种",
+      "夏至",
+      "大暑"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "清润滋阴类"
+  },
+  {
+    "herbId": "herb_026",
+    "name": "玉竹",
+    "pinyin": "yuzhu",
+    "nature": "Sweet, neutral",
+    "meridian": "Lung, Stomach",
+    "effect": "Nourishes yin, moistens dryness",
+    "role": "臣",
+    "bodyTypes": [
+      "yinxu"
+    ],
+    "solarTerms": [
+      "立秋",
+      "处暑",
+      "白露",
+      "秋分",
+      "寒露",
+      "霜降"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "清润滋阴类"
+  },
+  {
+    "herbId": "herb_027",
+    "name": "辛夷",
+    "pinyin": "xinyi",
+    "nature": "Acrid, warm",
+    "meridian": "Lung",
+    "effect": "Opens the nasal passages and orifices",
+    "role": "君",
+    "bodyTypes": [
+      "tebing"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立秋",
+      "秋分"
+    ],
+    "contraindications": [],
+    "volatility": "熏/佩戴",
+    "category": "通鼻抗过敏类"
+  },
+  {
+    "herbId": "herb_028",
+    "name": "白芷",
+    "pinyin": "baizhi",
+    "nature": "Acrid, warm",
+    "meridian": "Lung, Stomach",
+    "effect": "Opens the orifices, wards off foulness",
+    "role": "臣",
+    "bodyTypes": [
+      "tebing",
+      "tanshi"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏",
+      "夏至",
+      "立秋",
+      "秋分",
+      "立冬",
+      "冬至"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "通鼻抗过敏类"
+  },
+  {
+    "herbId": "herb_029",
+    "name": "薄荷",
+    "pinyin": "bohe",
+    "nature": "Acrid, cool",
+    "meridian": "Lung, Liver",
+    "effect": "Dispels wind, opens the nose",
+    "role": "佐",
+    "bodyTypes": [
+      "tebing",
+      "shire"
+    ],
+    "solarTerms": [
+      "春分",
+      "立夏",
+      "夏至",
+      "小暑"
+    ],
+    "contraindications": [],
+    "volatility": "熏/佩戴",
+    "category": "通鼻抗过敏类"
+  },
+  {
+    "herbId": "herb_030",
+    "name": "川芎",
+    "pinyin": "chuanxiong",
+    "nature": "Acrid, warm",
+    "meridian": "Liver, Gallbladder",
+    "effect": "Invigorates blood, moves qi",
+    "role": "君",
+    "bodyTypes": [
+      "xueyu"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏",
+      "夏至",
+      "立秋",
+      "秋分",
+      "立冬",
+      "冬至"
+    ],
+    "contraindications": [
+      "孕妇禁用"
+    ],
+    "volatility": "熏",
+    "category": "活血通络类"
+  },
+  {
+    "herbId": "herb_031",
+    "name": "乳香",
+    "pinyin": "ruxiang",
+    "nature": "Acrid, bitter, warm",
+    "meridian": "Heart, Liver",
+    "effect": "Disperses stasis, relieves pain",
+    "role": "臣",
+    "bodyTypes": [
+      "xueyu"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏",
+      "夏至",
+      "立秋",
+      "秋分",
+      "立冬",
+      "冬至"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "活血通络类"
+  },
+  {
+    "herbId": "herb_032",
+    "name": "红花",
+    "pinyin": "honghua",
+    "nature": "Acrid, warm",
+    "meridian": "Heart, Liver",
+    "effect": "Invigorates blood, unblocks the menses",
+    "role": "臣",
+    "bodyTypes": [
+      "xueyu"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏",
+      "夏至",
+      "立秋",
+      "秋分",
+      "立冬",
+      "冬至"
+    ],
+    "contraindications": [
+      "孕妇禁用"
+    ],
+    "volatility": "熏",
+    "category": "活血通络类"
+  },
+  {
+    "herbId": "herb_033",
+    "name": "黄芪",
+    "pinyin": "huangqi",
+    "nature": "Sweet, warm",
+    "meridian": "Spleen, Lung",
+    "effect": "Tonifies qi, secures the exterior",
+    "role": "君",
+    "bodyTypes": [
+      "qixu"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏",
+      "夏至",
+      "立秋",
+      "秋分",
+      "立冬",
+      "冬至"
+    ],
+    "contraindications": [],
+    "volatility": "熏/佩戴",
+    "category": "补气固本类"
+  },
+  {
+    "herbId": "herb_034",
+    "name": "白术",
+    "pinyin": "baizhu",
+    "nature": "Sweet, warm",
+    "meridian": "Spleen, Stomach",
+    "effect": "Strengthens the spleen, boosts qi",
+    "role": "臣",
+    "bodyTypes": [
+      "qixu",
+      "tanshi"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏",
+      "夏至",
+      "立秋",
+      "秋分",
+      "立冬",
+      "冬至"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "补气固本类"
+  },
+  {
+    "herbId": "herb_035",
+    "name": "炙甘草",
+    "pinyin": "zhigancao",
+    "nature": "Sweet, neutral",
+    "meridian": "All meridians",
+    "effect": "Harmonizes all herbs",
+    "role": "使",
+    "bodyTypes": [
+      "pinghe",
+      "qixu",
+      "yangxu",
+      "yinxu",
+      "tanshi",
+      "shire",
+      "xueyu",
+      "qiyu",
+      "tebing"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏",
+      "夏至",
+      "立秋",
+      "秋分",
+      "立冬",
+      "冬至"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "补气固本类"
+  },
+  {
+    "herbId": "herb_036",
+    "name": "金银花",
+    "pinyin": "jinyinhua",
+    "nature": "Sweet, cold",
+    "meridian": "Lung, Heart",
+    "effect": "Clears heat, removes toxins",
+    "role": "臣",
+    "bodyTypes": [
+      "shire"
+    ],
+    "solarTerms": [
+      "立夏",
+      "小满",
+      "芒种",
+      "夏至",
+      "大暑"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "清热燥湿类"
+  },
+  {
+    "herbId": "herb_037",
+    "name": "茵陈",
+    "pinyin": "yinchen",
+    "nature": "Bitter, slightly cold",
+    "meridian": "Liver, Gallbladder",
+    "effect": "Clears damp-heat",
+    "role": "君",
+    "bodyTypes": [
+      "shire"
+    ],
+    "solarTerms": [
+      "春分",
+      "立夏",
+      "夏至",
+      "小暑"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "清热燥湿类"
+  },
+  {
+    "herbId": "herb_038",
+    "name": "菊花",
+    "pinyin": "juhua",
+    "nature": "Sweet, bitter, cool",
+    "meridian": "Lung, Liver",
+    "effect": "Clears the head and eyes",
+    "role": "佐",
+    "bodyTypes": [
+      "shire",
+      "yinxu"
+    ],
+    "solarTerms": [
+      "立秋",
+      "处暑",
+      "白露",
+      "秋分",
+      "寒露",
+      "霜降"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "清热燥湿类"
+  },
+  {
+    "herbId": "herb_039",
+    "name": "榆皮粉",
+    "pinyin": "yupifen",
+    "nature": "Sweet, neutral",
+    "meridian": "Spleen",
+    "effect": "Binds and fixes the aroma",
+    "role": "使",
+    "bodyTypes": [
+      "pinghe",
+      "qixu",
+      "yangxu",
+      "yinxu",
+      "tanshi",
+      "shire",
+      "xueyu",
+      "qiyu",
+      "tebing"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏",
+      "夏至",
+      "立秋",
+      "秋分",
+      "立冬",
+      "冬至"
+    ],
+    "contraindications": [],
+    "volatility": "粘合剂",
+    "category": "定香粘合剂"
+  },
+  {
+    "herbId": "herb_040",
+    "name": "蜂蜜",
+    "pinyin": "fengmi",
+    "nature": "Sweet, neutral",
+    "meridian": "Spleen",
+    "effect": "Refined honey base; moderates the herbs' nature",
+    "role": "使",
+    "bodyTypes": [
+      "pinghe",
+      "qixu",
+      "yangxu",
+      "yinxu",
+      "tanshi",
+      "shire",
+      "xueyu",
+      "qiyu",
+      "tebing"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏",
+      "夏至",
+      "立秋",
+      "秋分",
+      "立冬",
+      "冬至"
+    ],
+    "contraindications": [],
+    "volatility": "粘合剂",
+    "category": "定香粘合剂"
+  },
+  {
+    "herbId": "herb_041",
+    "name": "甘松",
+    "pinyin": "gansong",
+    "nature": "Acrid, sweet, warm",
+    "meridian": "Spleen, Stomach",
+    "effect": "Regulates qi, relieves pain, opens stagnation and awakens the spleen",
+    "role": "臣",
+    "bodyTypes": [
+      "qiyu",
+      "tanshi",
+      "pinghe"
+    ],
+    "solarTerms": [
+      "立春",
+      "雨水",
+      "惊蛰",
+      "春分"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "理气开郁类"
+  },
+  {
+    "herbId": "herb_042",
+    "name": "香附",
+    "pinyin": "xiangfu",
+    "nature": "Acrid, slightly bitter, neutral",
+    "meridian": "Liver, San Jiao",
+    "effect": "Soothes the liver, regulates qi, regulates menses and relieves pain",
+    "role": "君",
+    "bodyTypes": [
+      "qiyu",
+      "xueyu"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏",
+      "夏至"
+    ],
+    "contraindications": [
+      "孕妇慎用"
+    ],
+    "volatility": "熏",
+    "category": "理气开郁类"
+  },
+  {
+    "herbId": "herb_043",
+    "name": "玄参",
+    "pinyin": "xuanshen",
+    "nature": "Sweet, bitter, salty; slightly cold",
+    "meridian": "Lung, Stomach, Kidney",
+    "effect": "Nourishes yin, subdues fire, removes toxins and disperses nodules",
+    "role": "臣",
+    "bodyTypes": [
+      "yinxu",
+      "shire"
+    ],
+    "solarTerms": [
+      "立夏",
+      "小满",
+      "芒种",
+      "夏至"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "滋阴降火类"
+  },
+  {
+    "herbId": "herb_044",
+    "name": "羌活",
+    "pinyin": "qianghuo",
+    "nature": "Acrid, bitter, warm",
+    "meridian": "Bladder, Kidney",
+    "effect": "Dispels wind and cold, overcomes dampness and relieves pain",
+    "role": "臣",
+    "bodyTypes": [
+      "yangxu",
+      "tebing"
+    ],
+    "solarTerms": [
+      "立冬",
+      "冬至",
+      "小寒",
+      "大寒"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "祛风散寒类"
+  },
+  {
+    "herbId": "herb_045",
+    "name": "附子",
+    "pinyin": "fuzi",
+    "nature": "Acrid, sweet; strongly hot, toxic",
+    "meridian": "Heart, Kidney, Spleen",
+    "effect": "Restores yang, rescues collapse, supplements fire and assists yang",
+    "role": "君",
+    "bodyTypes": [
+      "yangxu"
+    ],
+    "solarTerms": [
+      "冬至",
+      "小寒",
+      "大寒"
+    ],
+    "contraindications": [
+      "孕妇禁用",
+      "阴虚火旺禁用"
+    ],
+    "volatility": "熏",
+    "category": "温阳散寒类"
+  },
+  {
+    "herbId": "herb_046",
+    "name": "冰片",
+    "pinyin": "bingpian",
+    "nature": "Acrid, bitter; slightly cold",
+    "meridian": "Heart, Spleen, Lung",
+    "effect": "Opens the orifices, awakens the mind, clears heat and relieves pain",
+    "role": "佐",
+    "bodyTypes": [
+      "shire",
+      "tebing"
+    ],
+    "solarTerms": [
+      "立夏",
+      "小满",
+      "芒种",
+      "夏至",
+      "大暑"
+    ],
+    "contraindications": [
+      "孕妇慎用"
+    ],
+    "volatility": "熏/佩戴",
+    "category": "开窍醒神类"
+  },
+  {
+    "herbId": "herb_047",
+    "name": "白芨粉",
+    "pinyin": "baijifen",
+    "nature": "Bitter, sweet, astringent; slightly cold",
+    "meridian": "Lung, Stomach, Liver",
+    "effect": "Astringes and stops bleeding, reduces swelling, promotes tissue repair",
+    "role": "使",
+    "bodyTypes": [
+      "pinghe",
+      "shire",
+      "xueyu"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏",
+      "夏至",
+      "立秋",
+      "秋分",
+      "立冬",
+      "冬至"
+    ],
+    "contraindications": [],
+    "volatility": "粘合剂",
+    "category": "定香粘合剂"
+  },
+  {
+    "herbId": "herb_048",
+    "name": "龙脑",
+    "pinyin": "longnao",
+    "nature": "Acrid, bitter; slightly cold",
+    "meridian": "Heart, Spleen, Lung",
+    "effect": "Opens the orifices, awakens the mind, clears heat and disperses toxins",
+    "role": "佐",
+    "bodyTypes": [
+      "shire",
+      "tebing"
+    ],
+    "solarTerms": [
+      "立夏",
+      "小满",
+      "芒种",
+      "夏至"
+    ],
+    "contraindications": [
+      "孕妇禁用",
+      "特禀重度过敏慎用"
+    ],
+    "volatility": "熏",
+    "category": "开窍醒神类"
+  },
+  {
+    "herbId": "herb_049",
+    "name": "麝香",
+    "pinyin": "shexiang",
+    "nature": "Acrid, warm",
+    "meridian": "Heart, Spleen",
+    "effect": "Opens the orifices, awakens the mind, invigorates blood and unblocks the menses",
+    "role": "使",
+    "bodyTypes": [
+      "xueyu"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏",
+      "夏至"
+    ],
+    "contraindications": [
+      "孕妇禁用",
+      "特禀重度过敏禁用"
+    ],
+    "volatility": "熏",
+    "category": "开窍醒神类"
+  },
+  {
+    "herbId": "herb_050",
+    "name": "檀香粉",
+    "pinyin": "tanxiangfen",
+    "nature": "Acrid, warm",
+    "meridian": "Spleen, Stomach, Lung",
+    "effect": "Warms the middle, calms the mind, regulates qi and harmonizes the center",
+    "role": "君",
+    "bodyTypes": [
+      "qixu",
+      "yangxu",
+      "pinghe"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏",
+      "夏至",
+      "立秋",
+      "秋分",
+      "立冬",
+      "冬至"
+    ],
+    "contraindications": [],
+    "volatility": "全品类通用",
+    "category": "木质定香类"
+  },
+  {
+    "herbId": "herb_051",
+    "name": "没药",
+    "pinyin": "moyao",
+    "nature": "Acrid, bitter, neutral",
+    "meridian": "Heart, Liver, Spleen",
+    "effect": "Disperses stasis, relieves pain, reduces swelling and promotes tissue repair",
+    "role": "臣",
+    "bodyTypes": [
+      "xueyu"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏",
+      "夏至"
+    ],
+    "contraindications": [
+      "孕妇慎用"
+    ],
+    "volatility": "熏",
+    "category": "活血通络类"
+  },
+  {
+    "herbId": "herb_052",
+    "name": "丹参",
+    "pinyin": "danshen",
+    "nature": "Bitter, slightly cold",
+    "meridian": "Heart, Liver",
+    "effect": "Invigorates blood, removes stasis, clears the heart and relieves vexation",
+    "role": "臣",
+    "bodyTypes": [
+      "xueyu",
+      "yinxu"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏",
+      "夏至",
+      "立秋",
+      "秋分"
+    ],
+    "contraindications": [
+      "孕妇慎用"
+    ],
+    "volatility": "熏",
+    "category": "活血通络类"
+  },
+  {
+    "herbId": "herb_053",
+    "name": "防风",
+    "pinyin": "fangfeng",
+    "nature": "Acrid, sweet; slightly warm",
+    "meridian": "Bladder, Liver, Spleen",
+    "effect": "Dispels wind, releases the exterior, overcomes dampness and relieves pain",
+    "role": "臣",
+    "bodyTypes": [
+      "tebing",
+      "qixu"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立秋",
+      "秋分"
+    ],
+    "contraindications": [],
+    "volatility": "熏/佩戴",
+    "category": "祛风解表类"
+  },
+  {
+    "herbId": "herb_054",
+    "name": "桂枝",
+    "pinyin": "guizhi",
+    "nature": "Acrid, sweet, warm",
+    "meridian": "Heart, Lung, Bladder",
+    "effect": "Induces sweating, relaxes the muscles, warms and unblocks the meridians",
+    "role": "臣",
+    "bodyTypes": [
+      "yangxu",
+      "xueyu"
+    ],
+    "solarTerms": [
+      "立春",
+      "雨水",
+      "惊蛰",
+      "春分"
+    ],
+    "contraindications": [
+      "阴虚火旺慎用"
+    ],
+    "volatility": "熏",
+    "category": "温阳散寒类"
+  },
+  {
+    "herbId": "herb_055",
+    "name": "茯苓",
+    "pinyin": "fuling",
+    "nature": "Sweet, bland, neutral",
+    "meridian": "Heart, Spleen, Kidney",
+    "effect": "Promotes urination, drains dampness, strengthens the spleen and calms the heart",
+    "role": "臣",
+    "bodyTypes": [
+      "tanshi",
+      "qixu",
+      "pinghe"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏",
+      "夏至",
+      "立秋",
+      "秋分"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "健脾化湿类"
+  },
+  {
+    "herbId": "herb_056",
+    "name": "泽泻",
+    "pinyin": "zexie",
+    "nature": "Sweet, bland, cold",
+    "meridian": "Kidney, Bladder",
+    "effect": "Promotes urination, drains dampness, discharges heat",
+    "role": "佐",
+    "bodyTypes": [
+      "shire",
+      "tanshi"
+    ],
+    "solarTerms": [
+      "立夏",
+      "小满",
+      "芒种",
+      "夏至"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "清热燥湿类"
+  },
+  {
+    "herbId": "herb_057",
+    "name": "山奈",
+    "pinyin": "shannai",
+    "nature": "Acrid, warm",
+    "meridian": "Stomach",
+    "effect": "Moves qi, warms the middle, aids digestion and relieves pain",
+    "role": "佐",
+    "bodyTypes": [
+      "yangxu",
+      "tanshi"
+    ],
+    "solarTerms": [
+      "立冬",
+      "冬至",
+      "小寒",
+      "大寒"
+    ],
+    "contraindications": [],
+    "volatility": "熏",
+    "category": "温阳散寒类"
+  },
+  {
+    "herbId": "herb_058",
+    "name": "荜茇",
+    "pinyin": "bibo",
+    "nature": "Acrid, hot",
+    "meridian": "Stomach, Large Intestine",
+    "effect": "Warms the middle, disperses cold, descends qi and relieves pain",
+    "role": "佐",
+    "bodyTypes": [
+      "yangxu"
+    ],
+    "solarTerms": [
+      "冬至",
+      "小寒",
+      "大寒"
+    ],
+    "contraindications": [
+      "阴虚火旺禁用"
+    ],
+    "volatility": "熏",
+    "category": "温阳散寒类"
+  },
+  {
+    "herbId": "herb_059",
+    "name": "青皮",
+    "pinyin": "qingpi",
+    "nature": "Acrid, bitter, warm",
+    "meridian": "Liver, Gallbladder, Stomach",
+    "effect": "Soothes the liver, breaks qi, disperses accumulation and stagnation",
+    "role": "佐",
+    "bodyTypes": [
+      "qiyu",
+      "tanshi"
+    ],
+    "solarTerms": [
+      "立春",
+      "春分",
+      "立夏"
+    ],
+    "contraindications": [
+      "孕妇慎用"
+    ],
+    "volatility": "熏",
+    "category": "理气开郁类"
+  },
+  {
+    "herbId": "herb_060",
+    "name": "柏子仁",
+    "pinyin": "baiziren",
+    "nature": "Sweet, neutral",
+    "meridian": "Heart, Kidney, Large Intestine",
+    "effect": "Nourishes the heart, calms the mind, moistens the bowels",
+    "role": "臣",
+    "bodyTypes": [
+      "yinxu",
+      "qiyu"
+    ],
+    "solarTerms": [
+      "立秋",
+      "处暑",
+      "白露",
+      "秋分"
+    ],
+    "contraindications": [],
+    "volatility": "熏/佩戴",
+    "category": "疏肝安神类"
+  },
+  {
+    "herbId": "herb_061",
+    "name": "鹅梨汁炼蜜",
+    "pinyin": "elizhilianmi",
+    "nature": "",
+    "meridian": "",
+    "effect": "Softens harsh incense aromas; refined honey binder",
+    "role": "使",
+    "bodyTypes": [
+      "yinxu"
+    ],
+    "solarTerms": [],
+    "contraindications": [],
+    "volatility": "",
+    "category": "定香粘合剂"
+  }
+]

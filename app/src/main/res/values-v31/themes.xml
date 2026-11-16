@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Xiangshouzhengdao" parent="Base.AppTheme">
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/empty_splash</item>
+        <item name="android:windowSplashScreenAnimationDuration">0</item>
+    </style>
+</resources>

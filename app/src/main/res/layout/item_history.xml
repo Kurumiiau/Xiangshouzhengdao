@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:background="@drawable/bg_glass" android:foreground="@drawable/ripple_soft" android:clickable="true" android:focusable="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:padding="14dp" android:baselineAligned="false">
+        <LinearLayout android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/bg_icon_tile" android:backgroundTint="@color/tile_green_bg" android:orientation="vertical" android:gravity="center">
+            <TextView android:id="@+id/tvDay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="16sp" android:textStyle="bold" android:textColor="@color/text_primary" android:includeFontPadding="false" tools:text="15" />
+            <TextView android:id="@+id/tvMonth" android:layout_width="wrap_content" android:layout_height="wrap_content" tools:text="7月" android:textSize="11sp" android:textColor="@color/text_secondary" android:includeFontPadding="false" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="14dp">
+            <TextView android:id="@+id/tvBodyType" android:layout_width="wrap_content" android:layout_height="wrap_content" tools:text="气郁体质" android:textSize="15.5sp" android:textStyle="bold" android:textColor="@color/text_primary" android:includeFontPadding="false" />
+            <TextView android:id="@+id/tvSolarTerm" android:layout_width="wrap_content" android:layout_height="wrap_content" tools:text="小暑 · 专业版" android:textSize="12sp" android:textColor="@color/text_secondary" android:layout_marginTop="3dp" android:includeFontPadding="false" />
+        </LinearLayout>
+        <TextView android:id="@+id/tvArrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/navigation_chevron" android:textSize="24sp" android:textColor="@color/text_hint" android:includeFontPadding="false" />
+        <TextView android:id="@+id/tvDelete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/close_symbol" android:textSize="15sp" android:textStyle="bold" android:textColor="@color/accent" android:padding="10dp" android:visibility="gone" android:includeFontPadding="false" />
+    </LinearLayout>
+</FrameLayout>

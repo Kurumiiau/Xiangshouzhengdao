@@ -1,0 +1,380 @@
+[
+  {
+    "id": 1,
+    "text": "I am full of energy and seldom feel tired.",
+    "bodyType": "pinghe",
+    "reverse": false,
+    "group": 1
+  },
+  {
+    "id": 2,
+    "text": "Even light activity leaves me exhausted and aching all over.",
+    "bodyType": "qixu",
+    "reverse": false,
+    "group": 2
+  },
+  {
+    "id": 3,
+    "text": "My hands and feet are cold all year round.",
+    "bodyType": "yangxu",
+    "reverse": false,
+    "group": 3
+  },
+  {
+    "id": 4,
+    "text": "My palms and soles feel persistently hot, worsening in the afternoon.",
+    "bodyType": "yinxu",
+    "reverse": false,
+    "group": 4
+  },
+  {
+    "id": 5,
+    "text": "My body feels heavy and sluggish; I dislike moving around.",
+    "bodyType": "tanshi",
+    "reverse": false,
+    "group": 5
+  },
+  {
+    "id": 6,
+    "text": "I get red, swollen pimples on my face and back repeatedly.",
+    "bodyType": "shire",
+    "reverse": false,
+    "group": 6
+  },
+  {
+    "id": 7,
+    "text": "I fall asleep quickly and sleep soundly, rarely waking from dreams.",
+    "bodyType": "pinghe",
+    "reverse": false,
+    "group": 1
+  },
+  {
+    "id": 8,
+    "text": "I am short of breath and too tired to speak.",
+    "bodyType": "qixu",
+    "reverse": false,
+    "group": 2
+  },
+  {
+    "id": 9,
+    "text": "My waist and abdomen often feel cold; I like applying warmth.",
+    "bodyType": "yangxu",
+    "reverse": false,
+    "group": 3
+  },
+  {
+    "id": 10,
+    "text": "My mouth and throat are often dry; I drink water frequently.",
+    "bodyType": "yinxu",
+    "reverse": false,
+    "group": 4
+  },
+  {
+    "id": 11,
+    "text": "My abdomen is soft and plump, and I often feel bloated.",
+    "bodyType": "tanshi",
+    "reverse": false,
+    "group": 5
+  },
+  {
+    "id": 12,
+    "text": "My mouth tastes bitter and my breath smells in the morning.",
+    "bodyType": "shire",
+    "reverse": false,
+    "group": 6
+  },
+  {
+    "id": 13,
+    "text": "I adapt well to heat and cold and rarely catch colds or allergies when seasons change.",
+    "bodyType": "pinghe",
+    "reverse": false,
+    "group": 1
+  },
+  {
+    "id": 14,
+    "text": "My heart flutters and feels weak even at rest.",
+    "bodyType": "qixu",
+    "reverse": false,
+    "group": 2
+  },
+  {
+    "id": 15,
+    "text": "I feel the cold more than others and am the first to add layers.",
+    "bodyType": "yangxu",
+    "reverse": false,
+    "group": 3
+  },
+  {
+    "id": 16,
+    "text": "I sweat at night and wake up damp.",
+    "bodyType": "yinxu",
+    "reverse": false,
+    "group": 4
+  },
+  {
+    "id": 17,
+    "text": "I always have sticky phlegm in my throat that is hard to cough out.",
+    "bodyType": "tanshi",
+    "reverse": false,
+    "group": 5
+  },
+  {
+    "id": 18,
+    "text": "My sweat is sticky and my body gives off an odor.",
+    "bodyType": "shire",
+    "reverse": false,
+    "group": 6
+  },
+  {
+    "id": 19,
+    "text": "My complexion is rosy and even, with a healthy glow.",
+    "bodyType": "pinghe",
+    "reverse": false,
+    "group": 1
+  },
+  {
+    "id": 20,
+    "text": "I feel dizzy or see dark when I stand up.",
+    "bodyType": "qixu",
+    "reverse": false,
+    "group": 2
+  },
+  {
+    "id": 21,
+    "text": "Cold drinks give me stomach pain or diarrhea right away.",
+    "bodyType": "yangxu",
+    "reverse": false,
+    "group": 3
+  },
+  {
+    "id": 22,
+    "text": "My skin is dry and flaky, and my stools are dry and hard.",
+    "bodyType": "yinxu",
+    "reverse": false,
+    "group": 4
+  },
+  {
+    "id": 23,
+    "text": "My scalp and face are very oily.",
+    "bodyType": "tanshi",
+    "reverse": false,
+    "group": 5
+  },
+  {
+    "id": 24,
+    "text": "My urine is dark yellow and it burns when I pass water.",
+    "bodyType": "shire",
+    "reverse": false,
+    "group": 6
+  },
+  {
+    "id": 25,
+    "text": "My stools are well-formed and regular.",
+    "bodyType": "pinghe",
+    "reverse": false,
+    "group": 1
+  },
+  {
+    "id": 26,
+    "text": "I catch colds easily in wind or season changes and recover slowly.",
+    "bodyType": "qixu",
+    "reverse": false,
+    "group": 2
+  },
+  {
+    "id": 27,
+    "text": "My urine is clear and copious, I urinate often at night, and my stools are loose.",
+    "bodyType": "yangxu",
+    "reverse": false,
+    "group": 3
+  },
+  {
+    "id": 28,
+    "text": "I feel vexed and restless, with insomnia and vivid dreams at night.",
+    "bodyType": "yinxu",
+    "reverse": false,
+    "group": 4
+  },
+  {
+    "id": 29,
+    "text": "My stools are sticky and hard to flush away.",
+    "bodyType": "tanshi",
+    "reverse": false,
+    "group": 5
+  },
+  {
+    "id": 30,
+    "text": "I suffer recurring eczema and itchy skin.",
+    "bodyType": "shire",
+    "reverse": false,
+    "group": 6
+  },
+  {
+    "id": 31,
+    "text": "My mood is stable; I rarely feel anxious or low.",
+    "bodyType": "pinghe",
+    "reverse": false,
+    "group": 1
+  },
+  {
+    "id": 32,
+    "text": "I sweat spontaneously at rest, and it worsens with activity.",
+    "bodyType": "qixu",
+    "reverse": false,
+    "group": 2
+  },
+  {
+    "id": 33,
+    "text": "I feel listless and cannot summon energy all day.",
+    "bodyType": "yangxu",
+    "reverse": false,
+    "group": 3
+  },
+  {
+    "id": 34,
+    "text": "My eyes are dry and tire easily from long reading or screens.",
+    "bodyType": "yinxu",
+    "reverse": false,
+    "group": 4
+  },
+  {
+    "id": 35,
+    "text": "My mouth feels sticky and sweet, with a thick greasy tongue coating.",
+    "bodyType": "tanshi",
+    "reverse": false,
+    "group": 5
+  },
+  {
+    "id": 36,
+    "text": "I flare up and lose my temper over small things.",
+    "bodyType": "shire",
+    "reverse": false,
+    "group": 6
+  },
+  {
+    "id": 37,
+    "text": "I have long-standing stabbing or dull pains in fixed spots.",
+    "bodyType": "xueyu",
+    "reverse": false,
+    "group": 7
+  },
+  {
+    "id": 38,
+    "text": "I feel low and oppressed for long stretches and sigh often.",
+    "bodyType": "qiyu",
+    "reverse": false,
+    "group": 8
+  },
+  {
+    "id": 39,
+    "text": "I am sensitive and tend to overthink small things.",
+    "bodyType": "qiyu",
+    "reverse": false,
+    "group": 8
+  },
+  {
+    "id": 40,
+    "text": "When my mood is low I lose my appetite and feel queasy.",
+    "bodyType": "qiyu",
+    "reverse": false,
+    "group": 8
+  },
+  {
+    "id": 41,
+    "text": "Pollen, dust, or season changes make me sneeze with a runny nose right away.",
+    "bodyType": "tebing",
+    "reverse": false,
+    "group": 9
+  },
+  {
+    "id": 42,
+    "text": "I cannot tolerate perfume or strong scents.",
+    "bodyType": "tebing",
+    "reverse": false,
+    "group": 9
+  },
+  {
+    "id": 43,
+    "text": "My complexion is dull, with melasma or heavy dark circles.",
+    "bodyType": "xueyu",
+    "reverse": false,
+    "group": 7
+  },
+  {
+    "id": 44,
+    "text": "My mind is overactive; I lie awake for a long time before sleeping.",
+    "bodyType": "qiyu",
+    "reverse": false,
+    "group": 8
+  },
+  {
+    "id": 45,
+    "text": "In spring and autumn I have persistent nasal congestion, itching, and airway discomfort.",
+    "bodyType": "tebing",
+    "reverse": false,
+    "group": 9
+  },
+  {
+    "id": 46,
+    "text": "Season changes bring coughing, wheezing, or a dry itchy throat.",
+    "bodyType": "tebing",
+    "reverse": false,
+    "group": 9
+  },
+  {
+    "id": 47,
+    "text": "Asthma or allergic rhinitis runs in my family.",
+    "bodyType": "tebing",
+    "reverse": false,
+    "group": 9
+  },
+  {
+    "id": 48,
+    "text": "My skin breaks out in hives or red itchy rashes easily.",
+    "bodyType": "tebing",
+    "reverse": false,
+    "group": 9
+  },
+  {
+    "id": 49,
+    "text": "My lips or the veins under my tongue look dark purple.",
+    "bodyType": "xueyu",
+    "reverse": false,
+    "group": 7
+  },
+  {
+    "id": 50,
+    "text": "I bruise for no apparent reason.",
+    "bodyType": "xueyu",
+    "reverse": false,
+    "group": 7
+  },
+  {
+    "id": 51,
+    "text": "My memory is declining; I forget things often.",
+    "bodyType": "xueyu",
+    "reverse": false,
+    "group": 7
+  },
+  {
+    "id": 52,
+    "text": "My periods come with many clots and painful cramps.",
+    "bodyType": "xueyu",
+    "reverse": false,
+    "group": 7
+  },
+  {
+    "id": 53,
+    "text": "Under stress my chest feels tight and my sides uncomfortable.",
+    "bodyType": "qiyu",
+    "reverse": false,
+    "group": 8
+  },
+  {
+    "id": 54,
+    "text": "I dream a lot at night and wake easily, drained by my thoughts.",
+    "bodyType": "qiyu",
+    "reverse": false,
+    "group": 8
+  }
+]

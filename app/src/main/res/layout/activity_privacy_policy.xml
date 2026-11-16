@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:fitsSystemWindows="true">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:background="@color/bg_main" app:navigationIcon="@drawable/ic_back" app:navigationIconTint="@color/text_primary" app:titleTextColor="@color/text_primary">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pp_title" android:textSize="20sp" android:textStyle="bold" android:textColor="@color/text_primary" android:layout_gravity="center" android:includeFontPadding="false" />
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+            <TextView style="@style/LegalBody" android:text="@string/pp_intro" android:includeFontPadding="false" />
+            <TextView style="@style/LegalHead" android:text="@string/pp_s1" android:includeFontPadding="false" />
+            <TextView style="@style/LegalBody" android:text="@string/pp_s1b" android:includeFontPadding="false" />
+            <TextView style="@style/LegalHead" android:text="@string/pp_s2" android:includeFontPadding="false" />
+            <TextView style="@style/LegalBody" android:text="@string/pp_s2b" android:includeFontPadding="false" />
+            <TextView style="@style/LegalHead" android:text="@string/pp_s3" android:includeFontPadding="false" />
+            <TextView style="@style/LegalBody" android:text="@string/pp_s3b" android:includeFontPadding="false" />
+            <TextView style="@style/LegalHead" android:text="@string/pp_s4" android:includeFontPadding="false" />
+            <TextView style="@style/LegalBody" android:text="@string/pp_s4b" android:includeFontPadding="false" />
+            <TextView style="@style/LegalHead" android:text="@string/pp_s5" android:includeFontPadding="false" />
+            <TextView style="@style/LegalBody" android:text="@string/pp_s5b" android:includeFontPadding="false" />
+            <TextView style="@style/LegalHead" android:text="@string/pp_s6" android:includeFontPadding="false" />
+            <TextView style="@style/LegalBody" android:text="@string/pp_s6b" android:includeFontPadding="false" />
+            <TextView style="@style/LegalHead" android:text="@string/pp_s7" android:includeFontPadding="false" />
+            <TextView style="@style/LegalBody" android:text="@string/pp_s7b" android:includeFontPadding="false" />
+            <TextView style="@style/LegalHead" android:text="@string/pp_s8" android:includeFontPadding="false" />
+            <TextView style="@style/LegalBody" android:text="@string/pp_s8b" android:includeFontPadding="false" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/pp_copyright" android:textSize="12sp" android:textColor="@color/text_hint" android:gravity="center" android:layout_marginTop="16dp" android:layout_marginBottom="24dp" android:includeFontPadding="false" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
